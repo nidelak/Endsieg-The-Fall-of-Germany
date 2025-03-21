@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			13297 5 #Offenburg
 		}
-		set_demilitarized_zone = yes
+		
 	}
 
 	provinces={

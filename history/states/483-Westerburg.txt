@@ -14,7 +14,6 @@ state={
 		add_core_of = PRE
 		add_core_of = HSN
 		add_core_of = NAS
-		set_demilitarized_zone = yes
     }
 	manpower=212536
 	buildings_max_level_factor=1.000

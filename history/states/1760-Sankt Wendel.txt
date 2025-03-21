@@ -12,7 +12,6 @@ state={
         victory_points = {
             12853 2 #Idar-Oberstein
         }
-		set_demilitarized_zone = yes
     }
 	provinces={
 		12853 

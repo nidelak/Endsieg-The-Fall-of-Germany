@@ -12,7 +12,6 @@ state={
 		victory_points = {
 			8536 5 #Julich
 		}
-		set_demilitarized_zone = yes
     }
 	provinces={
 		7002 8536 12404 

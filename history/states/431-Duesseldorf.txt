@@ -27,7 +27,6 @@ state={
 		}
 		add_core_of = PRE
 		add_core_of = RHN
-		set_demilitarized_zone = yes
     }
 	manpower=1525120
 	buildings_max_level_factor=1.000

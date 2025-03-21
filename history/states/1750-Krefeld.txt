@@ -22,7 +22,6 @@ state={
         victory_points = {
             20734 20 #Krefeld
         }
-		set_demilitarized_zone = yes
     }
 	provinces={
 		8475 8897 20734 

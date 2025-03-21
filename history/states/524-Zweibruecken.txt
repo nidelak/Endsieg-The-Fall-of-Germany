@@ -16,7 +16,7 @@ state={
         victory_points = {
             6957 2 #Zweibrücken
         }
-		set_demilitarized_zone = yes
+		
     }
 	manpower=209907
 	buildings_max_level_factor=1.000

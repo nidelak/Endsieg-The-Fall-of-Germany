@@ -23,7 +23,6 @@ state={
 		victory_points = {
 			12876 5 #Worms
 		}
-		set_demilitarized_zone = yes
     }
 	manpower=451836
 	buildings_max_level_factor=1.000

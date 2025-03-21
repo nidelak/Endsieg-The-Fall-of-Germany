@@ -10,7 +10,6 @@ state={
 		}
 		add_core_of = PRE
 		add_core_of = RHN
-		set_demilitarized_zone = yes
     }
 	provinces={
 		770 12421 12523 

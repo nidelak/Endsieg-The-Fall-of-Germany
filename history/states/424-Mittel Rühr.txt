@@ -17,7 +17,6 @@ state={
         victory_points = {
             12083 40 #Bochum und Gelsenkirchen
         }
-		set_demilitarized_zone = yes
 	}
 
 	provinces={

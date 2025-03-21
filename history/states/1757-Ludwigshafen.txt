@@ -22,7 +22,6 @@ state={
         victory_points = {
             5086 5 #Neustadt
         }
-		set_demilitarized_zone = yes
     }
 	manpower=308951
 	buildings_max_level_factor=1.000

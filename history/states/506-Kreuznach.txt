@@ -16,7 +16,6 @@ state={
         victory_points = {
             7401 2 #Bad Kreuznach
         }
-		set_demilitarized_zone = yes
     }
 	provinces={
 		1905 7401 8179 12737 12746 20740 

@@ -14,7 +14,6 @@ state={
 		victory_points = {
 			12799 10 #Darmstadt
 		}
-		set_demilitarized_zone = yes
 	}
 
 	provinces={
