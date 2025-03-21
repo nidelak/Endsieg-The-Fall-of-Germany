@@ -1,0 +1,8 @@
+music_station = "german_radiostation"
+music = {
+	song = "befory every load x fury"
+	
+	chance = {
+		factor = 1
+	}
+}
