@@ -1,7 +1,6 @@
-music_station = "german_radiostation"
+music_station = "endsieg_MMCT"
 music = {
-	song = "befory every load x fury"
-	
+	song = "befory_every_load_x_fury"
 	chance = {
 		factor = 1
 	}

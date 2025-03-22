@@ -1,5 +1,4 @@
 spriteTypes = {
-
 	spriteType = {
 		name = "GFX_german_music"
 		texturefile = "gfx/interface/topbar/musicplayer/german_music.dds"

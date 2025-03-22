@@ -5,6 +5,6 @@ music = {
 }
 music = {
 	name = "befory_every_load_x_fury"
-	file = "befory_every_load_x_fury.ogg"
+	file = "german/befory_every_load_x_fury.ogg"
 	volume = 0.5
 }
