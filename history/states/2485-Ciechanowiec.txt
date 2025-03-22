@@ -11,6 +11,9 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=61350
 	state_category = pastoral

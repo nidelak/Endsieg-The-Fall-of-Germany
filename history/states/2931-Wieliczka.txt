@@ -12,7 +12,9 @@ state={
 		}
 		add_core_of = GAL
 		add_core_of = MLP
-
+		1939.10.12 = {
+			owner = GEN
+		}
 	}
 
 	provinces={

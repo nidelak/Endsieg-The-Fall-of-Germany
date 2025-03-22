@@ -23,6 +23,9 @@ state={
 		victory_points = {
 			11131 2 #Czersk
 		}
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=214240
 	buildings_max_level_factor=1.000

@@ -12,8 +12,8 @@ state={
 		}
 		add_core_of = BLR
 		add_core_of = PLS
-		buildings = {
-			infrastructure = 3
+		1939.10.12 = {
+			owner = SOV
 		}
   	}
 	manpower=43936

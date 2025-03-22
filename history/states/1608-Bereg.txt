@@ -10,10 +10,7 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = UKR
-		buildings = {
-			infrastructure = 3
-		}
-        	victory_points = { 8775 2 }
+        victory_points = { 8775 2 }
 		add_core_of = WUK
 	}
 	provinces={

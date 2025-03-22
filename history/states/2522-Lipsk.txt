@@ -12,6 +12,9 @@ state={
 			infrastructure = 2
 		}
 		add_claim_by = LIT
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=8204
 	state_category=enclave

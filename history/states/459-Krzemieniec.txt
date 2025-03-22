@@ -16,6 +16,9 @@ state={
 		victory_points = {
 			12713 2 #Krzemieniec
 		}
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=241300
 	buildings_max_level_factor=1.000

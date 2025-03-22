@@ -13,6 +13,9 @@ state={
 			infrastructure = 3
 		}
 		add_claim_by = LIT
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=66800
 	buildings_max_level_factor=1.000

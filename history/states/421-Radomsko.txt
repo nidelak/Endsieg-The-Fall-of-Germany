@@ -17,6 +17,9 @@ state={
 		victory_points = {
 			895 5 
 		}
+		1939.10.12 = {
+			owner = GEN
+		}
 
 	}
 

@@ -20,6 +20,9 @@ state={
 		victory_points = {
 			914 2 #Jasło
 		}
+		1939.10.12 = {
+			owner = GEN
+		}
   	}
 	manpower=323840
 	buildings_max_level_factor=1.000

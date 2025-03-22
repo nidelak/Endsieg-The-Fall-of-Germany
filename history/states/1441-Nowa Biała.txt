@@ -12,6 +12,9 @@ state={
 		}
 		add_core_of = SLO
 		add_core_of = LEM
+		1939.10.12 = {
+			owner = SLO
+		}
   	}
 	manpower=11076
 	buildings_max_level_factor=1.000

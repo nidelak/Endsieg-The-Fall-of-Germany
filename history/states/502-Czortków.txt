@@ -15,11 +15,11 @@ state={
 		add_core_of = WUK
 		add_core_of = UKR
 		add_core_of = PLD
-		buildings = {
-			infrastructure = 3
-		}
 		victory_points = {
 			13138 2 #Czortków
+		}
+		1939.10.12 = {
+			owner = SOV
 		}
   	}
 	manpower=242200
