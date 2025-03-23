@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "DEUTSCHES_AFRIKAKORPS_NAME"
+		desc = "DEUTSCHES_AFRIKAKORPS_DESC"
+		date = 1941.2.14.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		GER = {
+			history = GER_DEUTSCHES_AFRIKAKORPS_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

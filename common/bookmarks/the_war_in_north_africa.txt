@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_WAR_IN_NORTH_ARFICA_NAME"
+		desc = "THE_WAR_IN_NORTH_ARFICA_DESC"
+		date = 1940.8.13.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		GER = {
+			history = GER_THE_WAR_IN_NORTH_ARFICA_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

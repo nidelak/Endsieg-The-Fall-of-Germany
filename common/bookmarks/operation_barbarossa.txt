@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "OPERATION_BARBAROSSA_NAME"
+		desc = "OPERATION_BARBAROSSA_DESC"
+		date = 1941.5.22.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		GER = {
+			history = GER_OPERATION_BARBAROSSA_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
