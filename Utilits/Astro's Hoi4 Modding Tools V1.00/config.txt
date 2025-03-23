@@ -1,4 +1,0 @@
-## You should not modify this file at all, as errors may cause crashes.
-
-theme=Green
-gamepath=E:\SteamLibrary\steamapps\common\Hearts of Iron IV
