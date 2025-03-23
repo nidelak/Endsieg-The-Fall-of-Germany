@@ -40,7 +40,7 @@ state={
 			9043 2 
 		}
 		1940.7.10 = {
-			owner = GER
+			controller = GER
 			add_core_of = GER
 		}
 	}

@@ -16,6 +16,9 @@ state={
         victory_points = {
             12389 40 #Bruxelles
         }
+		1940.7.10 = {
+			controller = BNF
+		}
     }
 	manpower=829000
 	buildings_max_level_factor=1.000

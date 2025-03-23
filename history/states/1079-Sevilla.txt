@@ -6,9 +6,9 @@ state={
 		110 1039 1611 1785 4047 4165 7546 15411 19796 
 	}
 	history={
-		owner = SPR
+		owner = SPA
 		add_core_of = ADU
-		add_core_of = SPR
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

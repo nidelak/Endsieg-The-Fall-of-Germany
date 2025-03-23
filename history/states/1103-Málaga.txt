@@ -6,9 +6,9 @@ state={
 		1526 3112 8365 8920 19766 19776 
 	}
 	history={
-		owner = SPR
+		owner = SPA
 		add_core_of = ADU
-		add_core_of = SPR
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 2
 			air_base = 4

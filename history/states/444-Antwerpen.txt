@@ -24,6 +24,9 @@ state={
 		victory_points = {
             12157 2 #Turnhout
         }
+		1940.7.10 = {
+			controller = BNF
+		}
     }
 	manpower=1219400
 	buildings_max_level_factor=1.000

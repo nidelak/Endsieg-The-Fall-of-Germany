@@ -12,6 +12,9 @@ state={
 		}
 		add_core_of = WLN
 		add_core_of = NMR
+		1940.7.10 = {
+			controller = BNF
+		}
     }
 	provinces={
 		1744 2586 12581 

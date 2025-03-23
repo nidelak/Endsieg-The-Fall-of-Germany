@@ -24,6 +24,9 @@ state={
 		victory_points = {
             9341 5 #Tournai
         }
+		1940.7.10 = {
+			controller = BNF
+		}
     }
 	manpower=1250000
 	buildings_max_level_factor=1.000
