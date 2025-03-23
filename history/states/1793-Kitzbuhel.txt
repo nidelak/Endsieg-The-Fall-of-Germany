@@ -7,7 +7,6 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TIR
 		victory_points = {
             20810 1 #Kufstein
         }

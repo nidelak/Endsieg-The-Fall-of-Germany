@@ -9,7 +9,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = STR
 	}
 	provinces={
 		5678 7504 7909 13903 13945 20833 

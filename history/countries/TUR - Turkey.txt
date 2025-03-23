@@ -118,7 +118,6 @@ if = {
 			limit = {
 				OR = {
 					AND = {
-						is_core_of = THR
 						is_core_of = TUR
 					}
 					is_core_of = LZS

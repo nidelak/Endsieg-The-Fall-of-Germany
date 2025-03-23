@@ -8,8 +8,6 @@ state={
 		owner = BUL
 		add_core_of = BUL
 		add_core_of = THR
-		add_core_of = RUM
-		add_core_of = TAM
 		buildings = {
 			infrastructure = 2
 

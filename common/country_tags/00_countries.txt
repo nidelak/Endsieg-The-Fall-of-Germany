@@ -11,6 +11,12 @@ USA = "countries/USA.txt"
 MAN = "countries/Unused.txt"
 ITA = "countries/Italy.txt"
 
+#Reichkommissariats
+BAM = "countries/Bohemia and Moravia.txt"
+GEN = "countries/Generalgouvernement.txt"
+BNF = "countries/Belgium and North France.txt"
+RNI = "countries/Reichkommissariat Niederlande.txt"
+
 ###Tags added to clean the error log
 AST = "countries/Unused.txt"
 RAJ = "countries/Unused.txt"
@@ -25,52 +31,32 @@ MEX = "countries/Unused.txt"
 
 ###Central Europe
 AUS = "countries/Austria.txt"
-VOR = "countries/Vorarlberg.txt"
-TIR = "countries/Tirol.txt"
 SWI = "countries/Switzerland.txt"
-STR = "countries/Styria.txt"
-KRT = "countries/Carinthia.txt"
-SLZ = "countries/Salzburg.txt"
-BUR = "countries/Burgenland.txt"
 
 ###North America
 CAN = "countries/Canada.txt"
-NFL = "countries/Newfoundland.txt"
+NFL = "countries/Newfoundland.txt" #На карту добавить
 QBC = "countries/Quebec.txt"
-CSA = "countries/CSA.txt"
-USB = "countries/USB.txt"
-NEL = "countries/New England.txt"
 
 ###Western Europe
+FST = "countries/French State.txt"
 POR = "countries/Portugal.txt"
 SPR = "countries/Spain.txt"
 HOL = "countries/Netherlands.txt"
 LUX = "countries/Luxembourg.txt"
 BEL = "countries/Belgium.txt"
 IRE = "countries/Ireland.txt"
-WFR = "countries/West Frisia.txt"
 
 ###Eastern Europe
 POL = "countries/Poland.txt"
 HUN = "countries/Hungary.txt"
 CZE = "countries/Czechoslovakia.txt"
-BAM = "countries/Bohemia and Moravia.txt"
-GEN = "countries/Generalgouvernement.txt"
-BNF = "countries/Belgium and North France.txt"
-RNI = "countries/Reichkommissariat Niederlande.txt"
-FST = "countries/French State.txt"
 SLO = "countries/Slovakia.txt"
 ROM = "countries/Romania.txt"
 BUL = "countries/Bulgaria.txt"
-RUM = "countries/Eastern Rumelia.txt"
-TAM = "countries/Tamrash.txt"
-STZ = "countries/Strandzha.txt"
 YUG = "countries/Yugoslavia.txt"
 ALB = "countries/Albania.txt"
-CAB = "countries/Central Albania.txt"
 DNZ = "countries/Danzig.txt"
-WTH = "countries/Western Thrace.txt"
-THR = "countries/Thrace.txt"
 GRE = "countries/Greece.txt"
 SAM = "countries/Samos.txt"
 ICA = "countries/Icaria.txt"

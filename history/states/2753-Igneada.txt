@@ -7,7 +7,6 @@ state={
 		owner = TUR
 		add_core_of = TUR
 		add_core_of = THR
-		add_core_of = STZ
 		buildings = {
 			infrastructure = 2
 

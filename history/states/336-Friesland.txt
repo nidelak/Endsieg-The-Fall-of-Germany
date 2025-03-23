@@ -11,7 +11,6 @@ state={
 			19902 = { naval_base = 3 }
 			industrial_complex = 1
 		}
-		add_core_of = WFR
 		victory_points = {
 			11351 5 
 		}

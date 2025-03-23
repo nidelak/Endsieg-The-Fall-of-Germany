@@ -8,7 +8,6 @@ state={
 	history={
 		owner = BUL
 		add_core_of = BUL
-		add_core_of = RUM
 		add_core_of = THR
 		buildings = {
 			infrastructure = 2

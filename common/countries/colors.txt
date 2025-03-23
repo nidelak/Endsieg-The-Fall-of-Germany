@@ -7,10 +7,6 @@ USA = {
 	color = rgb { 43 89 202 }
 	color_ui = rgb { 43 89 202 }
 }
-NEL = {
-	color = rgb { 0 99 56 }
-	color_ui = rgb { 0 99 56 }
-}
 NFL = {
 	color = rgb { 186 12 47 }
 	color_ui = rgb { 186 12 47 }
@@ -44,10 +40,6 @@ ENG = {
 IRE = {
 	color = rgb { 22 155 98 }
 	color_ui = rgb { 22 155 98 }
-}
-WFR = {
-	color = rgb { 154 205 50 }
-	color_ui = rgb { 154 205 50 }
 }
 
 ###Central Europe
@@ -87,14 +79,6 @@ LIE = {
 	color = rgb { 47 51 132 }
 	color_ui = rgb { 47 51 132 }
 }
-VOR = {
-	color = rgb { 86 216 158 }
-	color_ui = rgb { 86 216 158 }
-}
-TIR = {
-	color = rgb { 210 160 160 }
-	color_ui = rgb { 210 160 160 }
-}
 TIC = {
 	color = rgb { 225 204 51 }
 	color_ui = rgb { 225 204 51 }
@@ -133,10 +117,6 @@ ALB = {
 	color = rgb { 143 43 53 }
 	color_ui = rgb { 143 43 53 }
 }
-CAB = {
-	color = rgb { 206 71 24 }
-	color_ui = rgb { 206 71 24 }
-}
 NER = {
 	color = rgb { 79 67 113 }
 	color_ui = rgb { 79 67 113 }
@@ -148,18 +128,6 @@ GRE = {
 CRT = {
 	color = rgb { 98 164 204 }
 	color_ui = rgb { 98 164 204 }
-}
-WTH = {
-	color = rgb { 0 140 78 }
-	color_ui = rgb { 0 140 78 }
-}
-THR = {
-	color = rgb { 39 74 126 }
-	color_ui = rgb { 39 74 126 }
-}
-STZ = {
-	color = rgb { 180 48 17 }
-	color_ui = rgb { 180 48 17 }
 }
 SAM = {
 	color = rgb { 0 51 128 }
@@ -176,14 +144,6 @@ MMA = {
 BUL = {
 	color = rgb { 0 150 70 }
 	color_ui = rgb { 0 150 70 }
-}
-RUM = {
-	color = rgb { 56 148 130 }
-	color_ui = rgb { 56 148 130 }
-}
-TAM = {
-	color = rgb { 63 96 0 }
-	color_ui = rgb { 63 96 0 }
 }
 ROM = {
 	color = rgb { 252 209 22 }
@@ -297,10 +257,6 @@ SVK = {
 SMG = {
     color = rgb { 101 142 156 }
     color_ui = rgb { 101 142 156 }
-}
-BUR = {
-    color = rgb { 217 192 19 }
-    color_ui = rgb { 217 192 19 }
 }
 SBB = {
     color = rgb { 4 62 119 }

@@ -7,7 +7,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SLZ
 	}
 	provinces={
 		3577 3909 13750 20809 20824 
