@@ -11,6 +11,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
+		add_core_of = KRT
         victory_points = {
             20843 5 #Villach
         }
