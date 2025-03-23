@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_german_station"
-		texturefile = "gfx/interface/topbar/musicplayer/german_station.dds"
+		name = "GFX_german_music"
+		texturefile = "gfx/interface/topbar/musicplayer/german_music.dds"
 		noOfFrames = 2
 	}
 }
