@@ -14,11 +14,11 @@ state={
 		add_core_of = WUK
 		add_core_of = GAL
 		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
 		victory_points = {
 			3940 2 #Nadwórna
-		}
-		1939.10.12 = {
-			owner = SOV
 		}
   	}
 	manpower=140702

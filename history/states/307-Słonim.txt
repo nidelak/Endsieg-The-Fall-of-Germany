@@ -9,6 +9,10 @@ state={
 		victory_points = {
 			11238 2 #Nowogródek
 		}
+		buildings = {
+			infrastructure = 3
+
+		}
 		add_core_of = BLR
 		buildings = {
 			infrastructure = 3

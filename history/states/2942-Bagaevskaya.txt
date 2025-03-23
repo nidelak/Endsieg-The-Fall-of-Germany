@@ -10,9 +10,7 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = DON
-		buildings = {
-			infrastructure = 1
-		}
+		buildings = { infrastructure = 1 }
 	}
 	state_category = pastoral
 	manpower=11277

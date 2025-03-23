@@ -10,9 +10,7 @@ state={
 		add_core_of = SOV
 		add_core_of = AZR
 		add_core_of = TCC
-		buildings = {
-			infrastructure = 1
-		}
+		buildings = { infrastructure = 1 }
 	}
 	state_category = rural
 	manpower=118923

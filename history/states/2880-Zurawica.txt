@@ -13,9 +13,7 @@ state={
 			infrastructure = 3
 
 		}
-		1939.10.12 = {
-			owner = GEN
-		}
+
 	}
 	manpower=11294
 	state_category=pastoral

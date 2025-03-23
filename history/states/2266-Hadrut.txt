@@ -10,6 +10,9 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = ARM
+		buildings = {
+			infrastructure = 2
+		}
 		add_core_of = NGK
         victory_points = { 16734 2 }
     }

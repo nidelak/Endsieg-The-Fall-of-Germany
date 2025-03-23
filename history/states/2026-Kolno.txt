@@ -12,9 +12,6 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		1939.10.12 = {
-			owner = SOV
-		}
   	}
 	manpower=121204
 	state_category=rural

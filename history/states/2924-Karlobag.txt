@@ -9,9 +9,7 @@ state={
 		owner = YUG
 		add_core_of = CRO
 		add_core_of = YUG
-		buildings = {
-			infrastructure = 1
-		}
+		buildings = { infrastructure = 1 }
 	}
 	state_category = pastoral
 	manpower=3782

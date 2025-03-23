@@ -11,6 +11,9 @@ state={
 		}
 		add_core_of = NGK
 		add_core_of = AZR
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	provinces={
 		1719 

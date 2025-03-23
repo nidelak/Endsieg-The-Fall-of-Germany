@@ -19,9 +19,7 @@ state={
 		victory_points = {
 			10923 20 #Danzig
 		}
-		1939.10.12 = {
-			owner = GER
-		}
+
 	}
 
 	provinces={

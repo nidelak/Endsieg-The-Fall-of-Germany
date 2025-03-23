@@ -17,9 +17,6 @@ state={
 		add_core_of = GAL
 		add_core_of = MLP
 		add_core_of = LEM
-		1939.10.12 = {
-			owner = GEN
-		}
   	}
 	manpower=159200
 	buildings_max_level_factor=1.000

@@ -14,6 +14,9 @@ state={
 		add_core_of = UKR
 		add_core_of = VLH
 		add_core_of = PLS
+		buildings = {
+			infrastructure = 3
+		}
   	}
 	manpower=13041
 	buildings_max_level_factor=1.000

@@ -12,14 +12,14 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
 		add_core_of = GAL
 		add_core_of = WUK
         victory_points = {
             19918 20
         }
-		1939.10.12 = {
-			owner = SOV
-		}
   	}
 	manpower=441639
 	buildings_max_level_factor=1.000

@@ -13,8 +13,8 @@ state={
 		add_core_of = UKR
 		add_core_of = VLH
 		add_core_of = PLS
-		1939.10.12 = {
-			owner = SOV
+		buildings = {
+			infrastructure = 3
 		}
   	}
 	manpower=11000

@@ -15,9 +15,6 @@ state={
         victory_points = {
             8745 5 #Łomża
         }
-		1939.10.12 = {
-			owner = SOV
-		}
   	}
 	manpower=265852
 	buildings_max_level_factor=1.000

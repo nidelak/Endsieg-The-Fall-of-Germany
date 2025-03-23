@@ -16,9 +16,6 @@ state={
         victory_points = {
             6002 10 #Rzeszów
         }
-		1939.10.12 = {
-			owner = GEN
-		}
   	}
 	manpower=381711
 	buildings_max_level_factor=1.000

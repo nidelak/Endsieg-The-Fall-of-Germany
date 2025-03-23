@@ -15,9 +15,7 @@ state={
 		victory_points = {
 			12221 5 
 		}
-		1939.10.12 = {
-			owner = GEN
-		}
+
 	}
 
 	provinces={

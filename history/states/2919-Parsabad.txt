@@ -11,9 +11,7 @@ state={
 		add_core_of = PER
 		add_core_of = AZR
 		add_core_of = TBZ
-		buildings = {
-			infrastructure = 1
-		}
+		buildings = { infrastructure = 1 }
 	}
 	state_category = rural
 	manpower=69225

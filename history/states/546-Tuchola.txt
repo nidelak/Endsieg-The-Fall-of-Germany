@@ -12,9 +12,7 @@ state={
 		}
 		add_core_of = WPR
 		add_core_of = PML
-		1939.10.12 = {
-			owner = GER
-		}
+
 	}
 
 	provinces={

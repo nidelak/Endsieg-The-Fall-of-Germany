@@ -12,9 +12,6 @@ state={
 			infrastructure = 2
 
 		}
-		1939.10.12 = {
-			owner = GER
-		}
 	}
 	state_category = rural
 	manpower=8277

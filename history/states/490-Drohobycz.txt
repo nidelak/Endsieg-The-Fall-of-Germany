@@ -12,14 +12,14 @@ state={
 		}
 		add_core_of = WUK
 		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
         victory_points = {
        		12981 5 #Drohobycz
        	}
 		victory_points = {
 			12896 2 #Sambor
-		}
-		1939.10.12 = {
-			owner = SOV
 		}
 	}
 

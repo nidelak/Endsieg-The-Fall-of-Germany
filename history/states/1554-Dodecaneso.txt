@@ -9,6 +9,13 @@ state={
 		buildings = {
 			infrastructure = 2
 			air_base = 1
+		}
+		add_claim_by = ITA
+		victory_points = {
+			20297 5 
+		}
+		buildings = {
+			infrastructure = 3
 			20297 = {
 				naval_base = 4
 
@@ -17,11 +24,9 @@ state={
 				naval_base = 1
 
 			}
+
 		}
-		add_claim_by = ITA
-		victory_points = {
-			20297 5 
-		}
+
 	}
 
 	provinces={

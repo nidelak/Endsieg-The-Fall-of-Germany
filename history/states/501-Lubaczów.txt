@@ -12,9 +12,7 @@ state={
 
 		}
 		add_core_of = WUK
-		1939.10.12 = {
-			owner = SOV
-		}
+
 	}
 
 	provinces={
