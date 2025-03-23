@@ -18,6 +18,9 @@ state={
 		victory_points = {
 			12568 5 #Myszków
 		}
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=353400
 	buildings_max_level_factor=1.000

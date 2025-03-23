@@ -12,6 +12,9 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		1940.8.6 = {
+			owner = SOV
+		}
   	}
 	manpower=76500
 	buildings_max_level_factor=1.000

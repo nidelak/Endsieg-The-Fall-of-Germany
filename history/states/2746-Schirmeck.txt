@@ -13,7 +13,10 @@ state={
 
 		}
 		add_core_of = ALS
-
+		1940.7.10 = {
+			owner = GER
+			add_core_of = GER
+		}
 	}
 	manpower=13018
 	state_category=pastoral

@@ -13,6 +13,9 @@ state={
 		add_core_of = GAL
 		add_claim_by = UKR
 		add_core_of = WUK
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=6546
 	state_category=pastoral

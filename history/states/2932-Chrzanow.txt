@@ -13,7 +13,9 @@ state={
 
 		}
 		add_core_of = GAL
-
+		1939.10.12 = {
+			owner = GER
+		}
 	}
 	manpower=29383
 	state_category=pastoral

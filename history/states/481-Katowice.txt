@@ -18,7 +18,10 @@ state={
         victory_points = {
             5322 20
         }
-  	}
+		1939.10.12 = {
+			owner = GER
+		}
+	}
 	manpower=552577
 	buildings_max_level_factor=1.000
 	state_category=large_city

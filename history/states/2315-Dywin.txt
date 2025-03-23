@@ -13,6 +13,9 @@ state={
 		add_core_of = BLR
 		add_core_of = VLH
 		add_core_of = PLS
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=34000
 	state_category=pastoral

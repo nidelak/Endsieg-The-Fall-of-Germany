@@ -17,6 +17,9 @@ state={
 		victory_points = {
 			1405 2 #Złoczów
 		}
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=232602
 	buildings_max_level_factor=1.000

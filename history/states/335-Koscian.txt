@@ -19,6 +19,9 @@ state={
         victory_points = {
             8903 2 #Rawicz
         }
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=245900
 	buildings_max_level_factor=1.000

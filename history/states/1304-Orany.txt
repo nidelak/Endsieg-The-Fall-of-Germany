@@ -13,7 +13,9 @@ state={
 		add_core_of = CLT
 		add_core_of = LIT
 		add_core_of = DKJ
-
+		1939.10.12 = {
+			owner = SOV
+		}
 	}
 
 	provinces={

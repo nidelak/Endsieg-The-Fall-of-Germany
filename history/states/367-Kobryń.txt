@@ -19,6 +19,9 @@ state={
 		victory_points = {
 			5230 2 #Bereza
 		}
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=181000
 	buildings_max_level_factor=1.000

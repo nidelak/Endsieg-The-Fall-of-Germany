@@ -17,6 +17,9 @@ state={
 		victory_points = {
 			6087 2 #Maubeuge
 		}
+		1940.7.10 = {
+			owner = BNF
+		}
 	}
 
 	provinces={

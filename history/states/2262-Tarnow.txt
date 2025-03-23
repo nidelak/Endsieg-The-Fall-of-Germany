@@ -13,6 +13,9 @@ state={
 		}
 		add_core_of = SIL
 		add_core_of = UPS
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=359204
 	buildings_max_level_factor=1.000

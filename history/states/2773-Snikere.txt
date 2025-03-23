@@ -13,7 +13,9 @@ state={
 		}
 		add_core_of = CUR
 		add_core_of = SMG
-
+		1940.8.6 = {
+			owner = SOV
+		}
 	}
 	manpower=210
 	state_category=enclave

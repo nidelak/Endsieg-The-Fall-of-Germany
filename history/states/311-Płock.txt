@@ -19,6 +19,9 @@ state={
 		victory_points = {
 			9098 2 #Plonsk
 		}
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=209500
 	buildings_max_level_factor=1.000

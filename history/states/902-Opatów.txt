@@ -15,6 +15,9 @@ state={
         victory_points = {
             19911 5
         }
+		1939.10.12 = {
+			owner = GEN
+		}
   	}
 	manpower=464100
 	buildings_max_level_factor=1.000

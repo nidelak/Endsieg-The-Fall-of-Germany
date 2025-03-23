@@ -9,6 +9,9 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 		}
+		1940.8.6 = {
+			owner = SOV
+		}
 	}
 	provinces={
 		19982 19983 19984 

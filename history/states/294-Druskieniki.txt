@@ -14,6 +14,9 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = DKJ
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=53275
 	buildings_max_level_factor=1.000

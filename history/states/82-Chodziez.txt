@@ -13,6 +13,9 @@ state={
 		}
 		
 		add_core_of = WKP
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=98800
 	buildings_max_level_factor=1.000

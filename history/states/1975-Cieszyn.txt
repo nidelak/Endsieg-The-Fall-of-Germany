@@ -17,6 +17,9 @@ state={
         victory_points = {
             12818 5
         }
+		1939.10.12 = {
+			owner = GER
+		}
   	}
 	manpower=183054
 	state_category=town

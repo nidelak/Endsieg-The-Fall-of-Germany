@@ -14,12 +14,16 @@ state={
 		add_core_of = BLR
 		add_claim_by = LIT
 		add_core_of = DKJ
-        	victory_points = {
-       	    	19941 10 #Mołodeczno
-       		}
-			victory_points = {
-				20002 2 #Postawy
-			}
+		victory_points = {
+			19941 10 #Mołodeczno
+		}
+		victory_points = {
+			20002 2 #Postawy
+		}
+
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=206800
 	buildings_max_level_factor=1.000

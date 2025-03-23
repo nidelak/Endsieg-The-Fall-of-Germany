@@ -17,6 +17,9 @@ state={
         victory_points = {
             19932 20
         }
+		1939.10.12 = {
+			owner = SOV
+		}
   	}
 	manpower=95895
 	buildings_max_level_factor=1.000

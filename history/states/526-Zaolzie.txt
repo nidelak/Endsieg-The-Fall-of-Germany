@@ -13,6 +13,9 @@ state={
 		add_core_of = SIL
 		add_core_of = UPS
 		add_core_of = CSN
+		1939.10.12 = {
+			owner = GER
+		}
 	}
 	provinces={
 		3904 12839 

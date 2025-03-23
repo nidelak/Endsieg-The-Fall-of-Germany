@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "WINTER_WAR_NAME"
+		desc = "WINTER_WAR_DESC"
+		date = 1939.10.30.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		GER = {
+			history = GER_WINTER_WAR_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
