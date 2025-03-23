@@ -16,9 +16,6 @@ state={
 		victory_points = {
 			12284 5 #Dunkirk
 		}
-		1940.7.10 = {
-			owner = BNF
-		}
 	}
 	
 	manpower=294266

@@ -11,9 +11,7 @@ state={
 
 		}
 		add_core_of = KAR
-		1940.3.12 = {
-			owner = SOV
-		}
+
 	}
 
 	provinces={

@@ -17,9 +17,6 @@ state={
         victory_points = {
             19762 10 #Perpignan
         }
-		1940.7.10 = {
-			owner = SPA
-		}
     }
 	manpower=233300
 	buildings_max_level_factor=1.000

@@ -14,9 +14,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		1939.10.12 = {
-			owner = GER
-		}
   	}
 	manpower=6140
 	state_category=enclave

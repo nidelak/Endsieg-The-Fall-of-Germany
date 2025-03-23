@@ -28,10 +28,7 @@ state={
 				bunker = 10
 			}
 		}
-		1940.7.10 = {
-			owner = GER
-			add_core_of = GER
-		}
+
 	}
 
 	provinces={

@@ -13,9 +13,6 @@ state={
 			infrastructure = 3
 		}
 		victory_points = { 19996 2 }
-		1940.8.6 = {
-			owner = SOV
-		}
   	}
 	manpower=83600
 	buildings_max_level_factor=1.000

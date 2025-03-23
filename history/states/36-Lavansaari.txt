@@ -8,9 +8,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		1940.3.12 = {
-			owner = SOV
-		}
 	}
 	provinces={
 		19714 

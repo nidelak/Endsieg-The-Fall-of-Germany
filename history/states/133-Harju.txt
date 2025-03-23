@@ -16,9 +16,7 @@ state={
 		victory_points = {
 			19972 20 
 		}
-		1940.8.6 = {
-			owner = SOV
-		}
+
 	}
 
 	provinces={

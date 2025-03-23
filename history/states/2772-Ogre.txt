@@ -19,9 +19,7 @@ state={
 		victory_points = {
 			10388 2 
 		}
-		1940.8.6 = {
-			owner = SOV
-		}
+
 	}
 	manpower=30549
 	state_category=pastoral

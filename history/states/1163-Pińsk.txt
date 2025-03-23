@@ -18,9 +18,6 @@ state={
         victory_points = {
             19924 10 #Pińsk
         }
-		1939.10.12 = {
-			owner = SOV
-		}
   	}
 
 	provinces={

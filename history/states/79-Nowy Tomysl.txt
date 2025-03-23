@@ -15,9 +15,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		1939.10.12 = {
-			owner = GER
-		}
+		
   	}
 	manpower=277200
 	buildings_max_level_factor=1.000

@@ -14,9 +14,6 @@ state={
 
 		}
 		add_claim_by = LIT
-		1939.10.12 = {
-			owner = GER
-		}
 	}
 	manpower=7302
 	state_category=enclave

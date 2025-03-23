@@ -12,9 +12,7 @@ state={
 
 		}
 		add_core_of = LIV
-		1940.8.6 = {
-			owner = SOV
-		}
+
 	}
 	manpower=407
 	state_category=enclave

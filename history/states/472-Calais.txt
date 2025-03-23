@@ -18,9 +18,7 @@ state={
 		victory_points = {
 			12325 5 
 		}
-		1940.7.10 = {
-			owner = BNF
-		}
+
 	}
 
 	provinces={

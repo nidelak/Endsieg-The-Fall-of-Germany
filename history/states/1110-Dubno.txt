@@ -19,9 +19,6 @@ state={
 		victory_points = {
 			3385 2 #Dubno
 		}
-		1939.10.12 = {
-			owner = SOV
-		}
   	}
 	manpower=226700
 	buildings_max_level_factor=1.000

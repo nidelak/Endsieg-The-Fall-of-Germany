@@ -16,9 +16,6 @@ state={
 		victory_points = {
 			12502 20 #Lille
 		}
-		1940.7.10 = {
-			owner = BNF
-		}
 	}
 
 	provinces={

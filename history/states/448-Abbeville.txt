@@ -14,9 +14,7 @@ state={
 			infrastructure = 4
 
 		}
-		1940.7.10 = {
-			owner = GER
-		}
+
 	}
 
 	provinces={

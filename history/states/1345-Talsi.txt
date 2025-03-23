@@ -11,9 +11,7 @@ state={
 
 		}
 		add_core_of = CUR
-		1940.8.6 = {
-			owner = SOV
-		}
+
 	}
 
 	provinces={

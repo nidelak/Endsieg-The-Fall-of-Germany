@@ -16,9 +16,7 @@ state={
 		victory_points = {
 			11384 5 #Słonim
 		}
-		1939.10.12 = {
-			owner = SOV
-		}
+
 	}
 
 	provinces={

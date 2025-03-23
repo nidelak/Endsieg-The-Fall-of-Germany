@@ -8,12 +8,9 @@ state={
 	history={
 		owner = POL
 		add_core_of = POL
-		add_core_of = MZV
+		ADD_core_of = MZV
 		buildings = {
 			infrastructure = 3
-		}
-		1939.10.12 = {
-			owner = GER
 		}
   	}
 	manpower=118100

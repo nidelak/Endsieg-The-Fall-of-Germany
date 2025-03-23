@@ -12,12 +12,9 @@ state={
 		add_core_of = GAL
 		add_core_of = UKR
 		add_core_of = WUK
-		victory_points = {
-			8773 5
-		}
-		1939.10.12 = {
-			owner = SOV
-		}
+        	victory_points = {
+       	    	8773 5
+       		}
 	}
 
 	provinces={
