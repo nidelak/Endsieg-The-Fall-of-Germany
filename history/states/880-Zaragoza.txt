@@ -4,9 +4,9 @@ state={
 	name="STATE_880"
     resources = { steel = 15.000 }
 	history={
-		owner = SPA
+		owner = SPR
 		add_core_of = ARA
-		add_core_of = SPA
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
 			air_base = 3

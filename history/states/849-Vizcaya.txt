@@ -6,9 +6,9 @@ state={
 		750 4675 19755 
 	}
 	history={
-		owner = SPA
+		owner = SPR
 		add_core_of = NAV
-		add_core_of = SPA
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

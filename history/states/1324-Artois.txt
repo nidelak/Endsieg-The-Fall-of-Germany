@@ -21,7 +21,7 @@ state={
 			1406 2
 		}
 		1940.7.10 = {
-			controller = BNF
+			owner = BNF
 		}
 	}
 

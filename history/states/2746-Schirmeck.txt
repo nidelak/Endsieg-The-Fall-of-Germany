@@ -14,7 +14,7 @@ state={
 		}
 		add_core_of = ALS
 		1940.7.10 = {
-			controller = GER
+			owner = GER
 			add_core_of = GER
 		}
 	}

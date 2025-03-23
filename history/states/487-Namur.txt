@@ -20,9 +20,7 @@ state={
 		victory_points = {
 			19890 10 
 		}
-		1940.7.10 = {
-			controller = BNF
-		}
+
 	}
 
 	provinces={

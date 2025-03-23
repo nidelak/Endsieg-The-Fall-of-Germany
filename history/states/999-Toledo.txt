@@ -7,8 +7,8 @@ state={
 	}
 	resources = { aluminium = 1.000 }
 	history={
-		owner = SPA
-		add_core_of = SPA
+		owner = SPR
+		add_core_of = SPR
 		add_core_of = CSM
 		buildings = {
 			arms_factory = 1

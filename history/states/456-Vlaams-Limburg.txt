@@ -22,9 +22,6 @@ state={
 		victory_points = {
             12354 5 #Genk
         }
-		1940.7.10 = {
-			controller = BNF
-		}
     }
 	manpower=393400
 	buildings_max_level_factor=1.000

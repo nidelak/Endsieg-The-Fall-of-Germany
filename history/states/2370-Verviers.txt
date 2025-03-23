@@ -18,9 +18,6 @@ state={
 		victory_points = {
             12549 5 #Seraing
         }
-		1940.7.10 = {
-			controller = BNF
-		}
     }
 	provinces={
 		12481 12503 12542 12549 

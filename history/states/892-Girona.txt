@@ -6,9 +6,9 @@ state={
 		4713 5400 6046 6922 14865 14873 19761 
 	}
 	history={
-		owner = SPA
+		owner = SPR
 		add_core_of = CAT
-		add_core_of = SPA
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
 		}

@@ -2,9 +2,9 @@ state={
 	id=2327
 	name="STATE_2327"
 	history={
-		owner = SPA
+		owner = SPR
 		add_core_of = ARA
-		add_core_of = SPA
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
 		}

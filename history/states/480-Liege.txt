@@ -21,9 +21,6 @@ state={
 		victory_points = {
             12494 2 #Andenne
         }
-		1940.7.10 = {
-			controller = BNF
-		}
 	}
 
 	provinces={

@@ -17,7 +17,7 @@ state={
 			12284 5 #Dunkirk
 		}
 		1940.7.10 = {
-			controller = BNF
+			owner = BNF
 		}
 	}
 	
