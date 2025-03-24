@@ -14,6 +14,7 @@ tags={
 }
 replace_path="common/bookmarks"
 replace_path="common/buildings"
+replace_path="common/characters"
 replace_path="common/countries"
 replace_path="common/country_tags"
 replace_path="gfx/loadingscreens"
