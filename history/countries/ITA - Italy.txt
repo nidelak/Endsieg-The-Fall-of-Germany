@@ -1,5 +1,17 @@
 ﻿capital = 876
 
+
+1940.6.10 = {
+	ITA = {
+		add_to_war = {
+			targeted_alliance = GER
+			enemy = ENG
+		}
+	}
+	GER = { add_to_faction = ITA }
+}
+
+
 if = {
 	limit = {
 		NOT = {

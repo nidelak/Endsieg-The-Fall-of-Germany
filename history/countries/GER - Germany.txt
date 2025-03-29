@@ -1,5 +1,14 @@
 ﻿capital = 1650
 
+
+1939.9.1 = {
+	declare_war_on = {
+		target = ENG
+		type = annex_everything
+	}
+}
+
+
 if = {
 	limit = {
 		NOT = {

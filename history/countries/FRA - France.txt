@@ -5,6 +5,18 @@ set_stability = 0.5
 add_command_power = 30
 set_convoys = 300
 
+
+ENG = { add_to_faction = FRA }
+1939.9.1 = {
+	FRA = {
+		add_to_war = {
+			targeted_alliance = ENG
+			enemy = GER
+		}
+	}
+}
+
+
 every_owned_state = {
 	set_state_flag = FRA_INITIAL_STATE
 }
