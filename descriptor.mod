@@ -12,6 +12,7 @@ tags={
 	"Graphics"
 	"Ideologies"
 }
+replace_path="common/ai_strategy"
 replace_path="common/bookmarks"
 replace_path="common/buildings"
 replace_path="common/characters"
