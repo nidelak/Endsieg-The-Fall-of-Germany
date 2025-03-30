@@ -1,11 +1,17 @@
 guiTypes = {
 
-	containerWindowType = { # Combat icon
+
+
+	#### LAND COMBAT MAP ICON
+	containerWindowType = {
 		name = "land_combat_mapicon"
+		#backGround =""
 		position = { x=0 y=0 }
-		size = { width=35 height=34 }
+		size = { width=35 height=34 } # WARNING: To make sure icon will not be misplaced, set the size to the true size of the content
 		clipping = no
 		orientation = upper_left
+		
+		
 		
 		iconType={
 			name ="battle_indicator_direction"
@@ -29,6 +35,20 @@ guiTypes = {
 			alwaystransparent = yes
 			frame = 1
 		}
+		
+		###MODIFIED FOR MOD###
+		#instantTextboxType = {
+		#	name = "combat_progress"
+		#	position = {x=3 y=16}
+		#	font = "hoi_16mbs"
+		#	text = "?"
+		#	maxWidth = 30
+		#	maxHeight = 23
+		#	format = center
+		#	allwaystransparent = yes
+		#}
+		######################
+		
 		iconType={
 			name ="air_superiority_icon"
 			spriteType = "GFX_battle_modifier_strip"
