@@ -1,0 +1,64 @@
+music_station = "HanZel und Gretyl"
+music = {
+	song = "Das_Boot"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Deathschlager"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Fukken_Uber_Death_Party"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Hail_To_The_Darkside"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Kaizerreich"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Loud_Und_Proud"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Number_1_In_Deutschland"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Sternkrieg"
+	
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Ubermensch_Uberfrau"
+	
+	chance = {
+		factor = 1
+	}
+}
