@@ -6,11 +6,13 @@ state = {
 	state_category = pastoral
 
 	provinces = {
-		18748 18818 20630 20631 
+		567 3900 9170 18748 18816 18818 20626 20631 
 	}
 
 	history = {
 		owner = GER
+		
+		victory_points = { 20626 2 }
 		
 		buildings = {
 			infrastructure = 3

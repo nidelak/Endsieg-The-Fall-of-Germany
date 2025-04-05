@@ -6,7 +6,7 @@ state = {
 	state_category = town
 
 	provinces = {
-		6415 12377 12414 12606 
+		6415 12377 12606 
 	}
 
 	history = {

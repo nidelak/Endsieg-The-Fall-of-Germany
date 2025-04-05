@@ -6,7 +6,7 @@ state = {
 	state_category = enclave
 
 	provinces = {
-		12428 18536 
+		12428 18531 18536 
 	}
 
 	history = {

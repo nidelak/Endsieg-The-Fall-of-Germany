@@ -6,7 +6,7 @@ state = {
 	state_category = city
 
 	provinces = {
-		2943 7501 12267 18720 18815 
+		2943 7501 12267 18815 20623 
 	}
 
 	resources = {
