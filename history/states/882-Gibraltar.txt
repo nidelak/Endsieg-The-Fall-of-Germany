@@ -1,27 +1,30 @@
+state = {
+	id = 882
+	name = "STATE_882"
+	manpower = 18000
 
-state={
-	id=882
-	name="STATE_882"
-	provinces={
+	state_category = enclave
+
+	provinces = {
 		19769 
 	}
-	history={
+
+	history = {
 		owner = ENG
-		add_core_of = ENG
+		
+		victory_points = { 19769 2 }
+		
 		buildings = {
 			infrastructure = 4
 			air_base = 2
-			19769 = {
+
+			19769 = { 
 				naval_base = 5
 				coastal_bunker = 2
 			}
 		}
-        victory_points = {
-            19769 2 #Gibraltar
-        }
-    }
-	manpower=18000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = enclave
+		
+		add_core_of = ENG
+	}
+
 }

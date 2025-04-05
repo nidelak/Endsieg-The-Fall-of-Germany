@@ -1,27 +1,25 @@
-state={
-	id=2843
-	name="STATE_2843"
+state = {
+	id = 2843
+	name = "STATE_2843"
+	manpower = 6150
 
-	history={
-		owner = SPR
-		add_core_of = MOR
-		add_core_of = WES
+	state_category = wasteland
 
-		buildings = {
-			infrastructure = 1
-		}
-
-		victory_points = {
-			4878 1 
-		}
-	}
-	
-	provinces={
+	provinces = {
 		1736 4369 4878 21663 
 	}
 
-	manpower=6150
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+	history = {
+		owner = SPR
+		
+		victory_points = { 4878 1 }
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+		add_core_of = MOR
+		add_core_of = WES
+	}
+
 }

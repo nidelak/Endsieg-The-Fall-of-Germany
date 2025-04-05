@@ -1,22 +1,25 @@
-state={
-	id=1788
-	name="STATE_1788"
-	history={
+state = {
+	id = 1788
+	name = "STATE_1788"
+	manpower = 220040
+
+	state_category = large_town
+
+	provinces = {
+		994 5916 13475 13586 13620 20790 20793 20794 20806 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 20790 2 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = GER
 		add_core_of = BAY
-        victory_points = {
-            20790 2 #Waldkraiburg und Mühldorf
-        }
-    }
-	provinces={
-		994 5916 13475 13586 13620 20790 20793 20794 20806 
 	}
-	manpower=220040
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
 }

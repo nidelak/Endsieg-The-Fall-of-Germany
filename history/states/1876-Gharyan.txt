@@ -1,24 +1,24 @@
-state={
-	id=1876
-	name="STATE_1876"
-					
-	history={
+state = {
+	id = 1876
+	name = "STATE_1876"
+	manpower = 32665
+
+	state_category = pastoral
+
+	provinces = {
+		6394 21069 21082 
+	}
+
+	history = {
 		owner = ITA
-		add_core_of = LBA
+		
+		victory_points = { 21082 5 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	
-	    victory_points = {
-		    21082 5 #Garian
-			}
+		
+		add_core_of = LBA
 	}
-	
-	provinces={
-		6394 21069 21082 
-	}
-	manpower=32665
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

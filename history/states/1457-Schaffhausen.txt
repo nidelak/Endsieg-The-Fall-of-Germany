@@ -1,21 +1,24 @@
-state={
-	id=1457
-	name="STATE_1457"
-	history={
+state = {
+	id = 1457
+	name = "STATE_1457"
+	manpower = 52514
+
+	state_category = pastoral
+
+	provinces = {
+		20101 
+	}
+
+	history = {
 		owner = SWI
-		add_core_of = SWI
+		
+		victory_points = { 20101 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
-		victory_points = {
-            20101 5 #Schaffhausen
-        }
+		
+		add_core_of = SWI
 	}
-	provinces={
-		20101 
-	}
-	manpower=52514
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

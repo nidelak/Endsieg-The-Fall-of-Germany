@@ -1,28 +1,31 @@
+state = {
+	id = 1272
+	name = "STATE_1272"
+	manpower = 232602
 
-state={
-	id=1272
-	name="STATE_1272"
-	provinces={
+	state_category = large_town
+
+	provinces = {
 		1405 2845 2960 3266 3508 4627 6010 6573 6962 12702 12749 12819 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
+		
+		victory_points = { 1405 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GAL
-		add_core_of = UKR
-		add_core_of = WUK
-		victory_points = {
-			1405 2 #Złoczów
-		}
+		
 		1939.10.12 = {
 			owner = SOV
 		}
-  	}
-	manpower=232602
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
+
+		add_core_of = POL
+		add_core_of = GAL
+		add_core_of = UKR
+		add_core_of = WUK
+	}
+
 }

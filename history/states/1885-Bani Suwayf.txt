@@ -1,25 +1,24 @@
+state = {
+	id = 1885
+	name = "STATE_1885"
+	manpower = 488233
 
-state={
-	id=1885
-	name="STATE_1885"
-					
+	state_category = city
+
+	provinces = {
+		2235 2336 21141 
+	}
+
 	history = {
 		owner = EGY
-		add_core_of = EGY
+		
+		victory_points = { 2235 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-	
-	    victory_points = {
-		    2235 5 #Bani Suwayf
-			}
+		
+		add_core_of = EGY
 	}
-	
-	provinces={
-		2235 2336 21141 
-	}
-	manpower=488233
-	state_category=city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

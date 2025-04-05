@@ -1,23 +1,25 @@
+state = {
+	id = 679
+	name = "STATE_679"
+	manpower = 32298
 
-state={
-	id=679
-	name="STATE_679"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		1610 5302 13885 20822 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 5302 1 }
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = GER
 		add_core_of = TIR
-		victory_points = {
-            5302 1 #Lienz
-        }
 	}
-	provinces={
-		1610 5302 13885 20822 
-	}
-	manpower=32298
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
+
 }

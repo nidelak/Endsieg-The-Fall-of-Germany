@@ -1,20 +1,24 @@
-state={
-	id=1816
-	name="STATE_1816"
-	history={
+state = {
+	id = 1816
+	name = "STATE_1816"
+	manpower = 555974
+
+	state_category = large_city
+
+	provinces = {
+		13421 20850 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
 		}
+		
+		add_core_of = GER
 	}
-	provinces={
-		13421 20850 
-	}
-	manpower=555974
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_city
+
 }

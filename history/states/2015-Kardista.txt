@@ -1,19 +1,22 @@
+state = {
+	id = 2015
+	name = "STATE_2015"
+	manpower = 47368
 
-state={
-	id=2015
-	name="STATE_2015"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		3245 9028 20326 
+	}
+
+	history = {
 		owner = GRE
-		add_core_of = GRE
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = GRE
 	}
-	provinces={
-		3245 9028 20326 
-	}
-	manpower=47368
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,25 +1,26 @@
+state = {
+	id = 1823
+	name = "STATE_1823"
+	manpower = 505278
 
-state={
-	id=1823
-	name="STATE_1823"
-	
-	history={
-		owner = POR
-		add_core_of = POR
-		buildings = {
-			infrastructure = 3
-			21014 = { naval_base = 1 }
-		}
-	    victory_points = {
-		    21014 10 #Funchal
-			}
-		}
-			
-	provinces={
+	state_category = city
+
+	provinces = {
 		20924 21014 
 	}
-	manpower=505278
-	state_category=city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	history = {
+		owner = POR
+		
+		victory_points = { 21014 10 }
+		
+		buildings = {
+			infrastructure = 3
+
+			21014 = { naval_base = 1 }
+		}
+		
+		add_core_of = POR
+	}
+
 }

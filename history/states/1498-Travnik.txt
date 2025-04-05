@@ -1,24 +1,24 @@
+state = {
+	id = 1498
+	name = "STATE_1498"
+	manpower = 120534
 
-state={
-	id=1498
-	name="STATE_1498"
+	state_category = rural
 
-	history={
-		add_core_of = BOS
+	provinces = {
+		8151 14569 16113 20163 
+	}
+
+	history = {
+		owner = YUG
+		
 		buildings = {
 			infrastructure = 2
-
 		}
-		owner = YUG
+		
+		add_core_of = BOS
 		add_core_of = YUG
 		add_core_of = HZB
 	}
 
-	provinces={
-		8151 14569 16113 20163 
-	}
-	manpower=120534
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
 }

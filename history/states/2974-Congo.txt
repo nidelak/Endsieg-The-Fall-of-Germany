@@ -1,24 +1,28 @@
-state={
-	id=2974
-	name="STATE_2974"
-	provinces={
+state = {
+	id = 2974
+	name = "STATE_2974"
+	manpower = 11184000
+
+	state_category = pastoral
+
+	provinces = {
 		5603 
 	}
+
 	resources = {
 		chromium = 40
 		rubber = 68
 	}
-	history={
+
+	history = {
 		owner = BEL
+		
 		buildings = {
 			infrastructure = 1
-			5603 = {
-				naval_base = 5
-			}
+
+			5603 = { naval_base = 5 }
 		}
-    }
-	manpower=11184000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
+		
+	}
+
 }

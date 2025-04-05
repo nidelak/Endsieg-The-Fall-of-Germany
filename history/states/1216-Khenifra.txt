@@ -1,25 +1,24 @@
+state = {
+	id = 1216
+	name = "STATE_1216"
+	manpower = 124280
 
-state={
-	id=1216
-	name="STATE_1216"
-			
-				
+	state_category = rural
+
+	provinces = {
+		135 973 2233 4647 9424 15721 15900 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 15900 2 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	    victory_points = {
-		    15900 2 #Khenifra
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		135 973 2233 4647 9424 15721 15900 
-	}
-	manpower=124280
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

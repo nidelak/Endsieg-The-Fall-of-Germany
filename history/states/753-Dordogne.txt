@@ -1,27 +1,27 @@
+state = {
+	id = 753
+	name = "STATE_753"
+	manpower = 348300
 
-state={
-	id=753
-	name="STATE_753"
-	history={
+	state_category = city
+
+	provinces = {
+		724 783 1676 3239 4760 7758 14372 14387 14439 14465 20493 
+	}
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
-		add_core_of = GYE
-		add_core_of = OCC
-        victory_points = {
-            783 2 #Bergerac
-        }
-        victory_points = {
-            7758 2 #Périgueux
-        }
+		
+		victory_points = { 783 2 }
+		victory_points = { 7758 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-    }
-	provinces={
-		724 783 1676 3239 4760 7758 14372 14387 14439 14465 20493 
+		
+		add_core_of = FRA
+		add_core_of = GYE
+		add_core_of = OCC
 	}
-	manpower=348300
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
 }

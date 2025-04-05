@@ -1,23 +1,28 @@
+state = {
+	id = 2305
+	name = "STATE_2305"
+	manpower = 196012
 
-state={
-	id=2305
-	name="STATE_2305"
+	state_category = large_town
+
+	provinces = {
+		495 1154 4409 5250 8790 18703 
+	}
+
 	history = {
 		owner = SAU
-		add_core_of = SAU
-		add_core_of = NJD
+		
+		victory_points = { 4409 10 }
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
+
 			4409 = { naval_base = 6 }
 		}
-		victory_points = { 4409 10 }
+		
+		add_core_of = SAU
+		add_core_of = NJD
 	}
-	provinces={
-		495 1154 4409 5250 8790 18703 
-	}
-	manpower=196012
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

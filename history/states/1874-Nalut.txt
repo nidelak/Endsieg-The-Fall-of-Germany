@@ -1,18 +1,22 @@
-state={
-	id=1874
-	name="STATE_1874"
-	history={
+state = {
+	id = 1874
+	name = "STATE_1874"
+	manpower = 10716
+
+	state_category = pastoral
+
+	provinces = {
+		919 2331 7810 9189 
+	}
+
+	history = {
 		owner = ITA
-		add_core_of = LBA
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = LBA
 	}
-	provinces={
-		919 2331 7810 9189 
-	}
-	manpower=10716
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

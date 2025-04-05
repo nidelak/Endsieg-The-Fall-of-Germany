@@ -1,24 +1,29 @@
+state = {
+	id = 860
+	name = "STATE_860"
+	manpower = 106500
 
-state={
-	id=860
-	name="STATE_860"
-	provinces={
+	state_category = rural
+
+	provinces = {
 		5618 8647 14776 19756 
 	}
-	resources = { steel = 8.000 }
-	history={
+
+	resources = {
+		steel = 8
+	}
+
+	history = {
 		owner = SPR
-		add_core_of = NAV
-		add_core_of = SPR
+		
+		victory_points = { 19756 20 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-        victory_points = {
-            19756 20 #Vitoria-Gasteiz
-        }
-    }
-	manpower=106500
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+		
+		add_core_of = NAV
+		add_core_of = SPR
+	}
+
 }

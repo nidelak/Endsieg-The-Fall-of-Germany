@@ -1,20 +1,22 @@
+state = {
+	id = 1322
+	name = "STATE_1322"
+	manpower = 21466
 
-state={
-	id=1322
-	name="STATE_1322"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		4900 
+	}
+
+	history = {
 		owner = ITA
-		add_core_of = LBA
+		
 		buildings = {
 			infrastructure = 0
 		}
+		
+		add_core_of = LBA
 	}
-	provinces={
-		4900 
-	}
-	manpower=21466
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	impassable=yes
-	local_supplies=0.000
+
 }

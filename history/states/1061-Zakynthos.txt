@@ -1,19 +1,22 @@
+state = {
+	id = 1061
+	name = "STATE_1061"
+	manpower = 24683
 
-state={
-	id=1061
-	name="STATE_1061"
-	history={
+	state_category = small_island
+
+	provinces = {
+		20284 
+	}
+
+	history = {
 		owner = GRE
-		add_core_of = GRE
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = GRE
 	}
-	provinces={
-		20284 
-	}
-	manpower=24683
-	state_category=small_island
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

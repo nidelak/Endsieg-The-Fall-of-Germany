@@ -1,23 +1,26 @@
+state = {
+	id = 2570
+	name = "STATE_2570"
+	manpower = 254758
 
-state={
-	id=2570
-	name="STATE_2570"
-	provinces={
+	state_category = city
+
+	provinces = {
 		11192 18643 
 	}
-	history={
-	    owner = GER
-		add_core_of = GER
+
+	history = {
+		owner = GER
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = SHL
 		add_core_of = HLS
 		add_core_of = HAM
-    }
-	manpower=254758
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	}
+
 }

@@ -1,28 +1,33 @@
-state={
-	id=2356
-	name="STATE_2356"
-	resources={
-		aluminium=3
+state = {
+	id = 2356
+	name = "STATE_2356"
+	manpower = 51050
+
+	state_category = pastoral
+
+	provinces = {
+		2290 14529 20529 
 	}
+
+	resources = {
+		aluminium = 3
+	}
+
 	history = {
 		owner = ITA
-		add_core_of = ITA
-		add_core_of = PIE
-		add_core_of = OCC
+		
+		victory_points = { 2290 1 }
+		
 		buildings = {
 			infrastructure = 2
+
 			2290 = { bunker = 1 }
 			20529 = { bunker = 1 }
 		}
-		victory_points = {
-			2290 1
-		}
+		
+		add_core_of = ITA
+		add_core_of = PIE
+		add_core_of = OCC
 	}
-	provinces={
-		2290 14529 20529 
-	}
-	manpower=51050
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

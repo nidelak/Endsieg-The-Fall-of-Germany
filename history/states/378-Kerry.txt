@@ -1,22 +1,27 @@
-state={
-	id=378
-	name="STATE_378"
-	history={
+state = {
+	id = 378
+	name = "STATE_378"
+	manpower = 149171
+
+	state_category = rural
+
+	provinces = {
+		1853 2244 2912 5596 8965 11930 
+	}
+
+	history = {
 		owner = IRE
-		add_core_of = IRE
+		
+		victory_points = { 2912 2 }
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 			2912 = { naval_base = 1 }
 		}
-		victory_points = {
-            2912 2
-        }
+		
+		add_core_of = IRE
 	}
-	provinces={
-		1853 2244 2912 5596 8965 11930 
-	}
-	manpower=149171
-	buildings_max_level_factor=1.000
-	state_category = rural
+
 }

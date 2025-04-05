@@ -1,22 +1,24 @@
+state = {
+	id = 1074
+	name = "STATE_1074"
+	manpower = 246751
 
-state={
-	id=1074
-	name="STATE_1074"
-	history={
+	state_category = large_town
+
+	provinces = {
+		5784 20258 20272 
+	}
+
+	history = {
 		owner = GRE
-		add_core_of = GRE
+		
+		victory_points = { 20258 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			20258 2 #Livadiá
-		}
+		
+		add_core_of = GRE
 	}
-	provinces={
-		5784 20258 20272 
-	}
-	manpower=246751
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
+
 }

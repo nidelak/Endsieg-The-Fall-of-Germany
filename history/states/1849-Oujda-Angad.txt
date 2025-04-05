@@ -1,24 +1,24 @@
-state={
-	id=1849
-	name="STATE_1849"
-		
-				
+state = {
+	id = 1849
+	name = "STATE_1849"
+	manpower = 112840
+
+	state_category = rural
+
+	provinces = {
+		5756 7813 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 7813 10 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	    victory_points = {
-		    7813 10 #Oujda-Angad
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		5756 7813 
-	}
-	manpower=112840
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

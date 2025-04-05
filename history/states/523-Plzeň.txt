@@ -1,24 +1,26 @@
+state = {
+	id = 523
+	name = "STATE_523"
+	manpower = 340100
 
-state={
-	id=523
-	name="STATE_523"
-	provinces={
+	state_category = city
+
+	provinces = {
 		483 2925 12767 12784 12845 
 	}
-	history={
+
+	history = {
 		owner = BAM
-		add_core_of = CZE
-		add_core_of = BOH
+		
+		victory_points = { 2925 10 }
+		
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 		}
-        victory_points = {
-            2925 10 #Plzeň
-        }
-    }
-	manpower=340100
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+		
+		add_core_of = CZE
+		add_core_of = BOH
+	}
+
 }

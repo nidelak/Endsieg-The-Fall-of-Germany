@@ -1,27 +1,27 @@
+state = {
+	id = 1655
+	name = "STATE_1655"
+	manpower = 263457
 
-state={
-	id=1655
-	name="STATE_1655"
+	state_category = city
 
-	history={
+	provinces = {
+		854 6250 7495 8552 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 6250 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
-		add_core_of = SIL 
+		add_core_of = SIL
 		add_core_of = UPS
-		victory_points = {
-			6250 5 #Ratibor
-		}
 	}
 
-	provinces={
-		854 6250 7495 8552 
-	}
-	manpower=263457
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
 }

@@ -1,35 +1,32 @@
+state = {
+	id = 1057
+	name = "STATE_1057"
+	manpower = 648200
 
-state={
-	id=1057
-	name="STATE_1057"
-	provinces={
+	state_category = large_city
+
+	provinces = {
 		77 3862 3887 4217 7009 15387 15394 19764 19778 
 	}
-	history={
+
+	history = {
 		owner = SPR
-		add_core_of = MUR
-		add_core_of = SPR
+		
+		victory_points = { 3862 2 }
+		victory_points = { 15387 20 }
+		victory_points = { 19764 20 }
+		victory_points = { 19778 5 }
+		
 		buildings = {
 			infrastructure = 3
 			dockyard = 1
 			air_base = 2
+
 			19764 = { naval_base = 6 }
 		}
-        victory_points = {
-            19764 20 #Cartagena
-        }
-		victory_points = {
-            19778 5 #Lorca
-        }
-		victory_points = {
-            15387 20 #Murcia
-        }
-		victory_points = {
-            3862 2 #Cieza
-        }
-    }
-	manpower=648200
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_city
+		
+		add_core_of = MUR
+		add_core_of = SPR
+	}
+
 }

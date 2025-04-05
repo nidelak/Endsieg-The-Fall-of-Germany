@@ -1,24 +1,26 @@
+state = {
+	id = 639
+	name = "STATE_639"
+	manpower = 259081
 
-state={
-	id=639
-	name="STATE_639"
-	history={
+	state_category = city
+
+	provinces = {
+		441 2734 13701 
+	}
+
+	history = {
 		owner = ROM
-		add_core_of = ROM
-		add_core_of = TRA
-		add_core_of = CRS
+		
+		victory_points = { 2734 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			2734 5 
-		}
+		
+		add_core_of = ROM
+		add_core_of = TRA
+		add_core_of = CRS
 	}
-	provinces={
-		441 2734 13701 
-	}
-	manpower=259081
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
 }

@@ -1,20 +1,23 @@
+state = {
+	id = 2244
+	name = "STATE_2244"
+	manpower = 109346
 
-state={
-	id=2244
-	name="STATE_2244"
+	state_category = rural
+
+	provinces = {
+		14012 
+	}
+
 	history = {
 		owner = HUN
-		add_core_of = HUN
-		add_core_of = CRS
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = HUN
+		add_core_of = CRS
 	}
-	provinces={
-		14012 
-	}
-	manpower=109346
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
 }

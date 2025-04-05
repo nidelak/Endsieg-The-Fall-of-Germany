@@ -1,32 +1,28 @@
+state = {
+	id = 884
+	name = "STATE_884"
+	manpower = 34379
 
-state={
-	id=884
-	name="STATE_884"
+	state_category = pastoral
 
-	history={
-		owner = YUG
-		add_core_of = YUG
-		add_core_of = MNT
-		buildings = {
-			infrastructure = 2
-			17287 = {
-				naval_base = 1
-
-			}
-
-		}
-		victory_points = {
-			17287 1
-		}
-		add_core_of = DLM
-
-	}
-
-	provinces={
+	provinces = {
 		4123 17287 
 	}
-	manpower=34379
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	history = {
+		owner = YUG
+		
+		victory_points = { 17287 1 }
+		
+		buildings = {
+			infrastructure = 2
+
+			17287 = { naval_base = 1 }
+		}
+		
+		add_core_of = YUG
+		add_core_of = MNT
+		add_core_of = DLM
+	}
+
 }

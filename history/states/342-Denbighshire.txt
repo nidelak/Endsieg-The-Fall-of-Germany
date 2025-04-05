@@ -1,26 +1,26 @@
+state = {
+	id = 342
+	name = "STATE_342"
+	manpower = 156800
 
-state={
-	id=342
-	name="STATE_342"
-	provinces={
+	state_category = town
+
+	provinces = {
 		19421 19422 19423 
 	}
-	history={
+
+	history = {
 		owner = ENG
-		add_core_of = ENG
+		
+		victory_points = { 19421 2 }
+		victory_points = { 19422 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = ENG
 		add_core_of = WLS
-        victory_points = {
-            19422 5
-        }
-		victory_points = {
-            19421 2
-        }
-    }
-	manpower=156800
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = town
+	}
+
 }

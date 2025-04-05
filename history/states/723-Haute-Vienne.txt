@@ -1,28 +1,26 @@
+state = {
+	id = 723
+	name = "STATE_723"
+	manpower = 221600
 
-state={
-	id=723
-	name="STATE_723"
+	state_category = large_town
 
-	history={
+	provinces = {
+		1366 7069 7948 19816 20494 
+	}
+
+	history = {
 		owner = FRA
+		
+		victory_points = { 19816 10 }
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
 		add_core_of = FRA
 		add_core_of = LMS
 		add_core_of = OCC
-		buildings = {
-			infrastructure = 3
-
-		}
-		victory_points = {
-			19816 10 
-		}
-
 	}
 
-	provinces={
-		1366 7069 7948 19816 20494 
-	}
-	manpower=221600
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
 }

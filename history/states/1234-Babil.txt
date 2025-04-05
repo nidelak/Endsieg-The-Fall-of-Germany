@@ -1,26 +1,26 @@
+state = {
+	id = 1234
+	name = "STATE_1234"
+	manpower = 371708
 
-state={
-	id=1234
-	name="STATE_1234"
+	state_category = city
 
-	history={
+	provinces = {
+		849 8519 15711 15732 15743 18959 
+	}
+
+	history = {
 		owner = IRQ
-		add_core_of = IRQ
+		
+		victory_points = { 15743 10 }
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 4
 		}
-		victory_points = {
-		    15743 10 #Hillah
-		}	
+		
+		add_core_of = IRQ
 	}
 
-	provinces={
-		849 8519 15711 15732 15743 18959 
-	}
-	manpower=371708
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
 }

@@ -1,27 +1,25 @@
+state = {
+	id = 2331
+	name = "STATE_2331"
+	manpower = 124150
 
-state={
-	id=2331
-	name="STATE_2331"
-	provinces={
+	state_category = town
+
+	provinces = {
 		658 5099 5357 11943 21666 21667 
 	}
-	
-	history={
+
+	history = {
 		owner = HOL
-		add_core_of = HOL
+		
+		victory_points = { 5099 2 }
+		victory_points = { 5357 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			5357 10 #Nijmegen
-		}
-		victory_points = {
-			5099 2 #Tiel
-		}
+		
+		add_core_of = HOL
 	}
-	
-	manpower=124150
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
 }

@@ -1,21 +1,24 @@
+state = {
+	id = 2011
+	name = "STATE_2011"
+	manpower = 500
 
-state={
-	id=2011
-	name="STATE_2011"
+	state_category = wasteland
+
+	provinces = {
+		344 8334 
+	}
+
 	history = {
 		owner = SAU
-		add_core_of = SAU
-		add_core_of = JBS
-		add_core_of = NJD
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = SAU
+		add_core_of = JBS
+		add_core_of = NJD
 	}
-	provinces={
-		344 8334 
-	}
-	manpower=500
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

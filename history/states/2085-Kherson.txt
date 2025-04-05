@@ -1,28 +1,34 @@
+state = {
+	id = 2085
+	name = "STATE_2085"
+	manpower = 324548
 
-state={
-	id=2085
-	name="STATE_2085"
-	resources={
-		chromium=15.000
-	}
-	provinces={
+	state_category = city
+
+	provinces = {
 		193 806 940 2628 13997 
 	}
+
+	resources = {
+		chromium = 15
+	}
+
 	history = {
-		victory_points = { 2628 20 }
 		owner = SOV
+		
+		victory_points = { 2628 20 }
+		
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+
+			13997 = { naval_base = 1 }
+		}
+		
 		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = ZAP
 		add_core_of = ODS
-		buildings = {
-			infrastructure = 3
-			13997 = { naval_base = 1 }
-			dockyard = 1
-		}
 	}
-	manpower=324548
-	state_category=city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

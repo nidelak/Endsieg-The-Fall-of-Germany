@@ -1,20 +1,23 @@
+state = {
+	id = 2717
+	name = "STATE_2717"
+	manpower = 32600
 
-state={
-	id=2717
-	name="STATE_2717"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		11556 19903 
+	}
+
+	history = {
 		owner = HOL
-		add_core_of = HOL
-		add_core_of = LIM
+		
 		buildings = {
 			infrastructure = 4
 		}
-    }
-	provinces={
-		19903 11556
+		
+		add_core_of = HOL
+		add_core_of = LIM
 	}
-	manpower=32600
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
 }

@@ -1,26 +1,25 @@
+state = {
+	id = 2210
+	name = "STATE_2210"
+	manpower = 1462816
 
-state={
-	id=2210
-	name="STATE_2210"
-			
+	state_category = metropolis
+
+	provinces = {
+		18589 18844 
+	}
+
 	history = {
 		owner = IRQ
-		add_core_of = IRQ
+		
+		victory_points = { 18589 80 }
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-	
-	    victory_points = {
-		    18589 80 #Baghdad
-		}
+		
+		add_core_of = IRQ
 	}
-	
-	provinces={
-		18589 18844 
-	}
-	manpower=1462816
-	state_category=metropolis
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

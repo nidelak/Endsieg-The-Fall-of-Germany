@@ -1,18 +1,23 @@
-state={
-	id=379
-	name="STATE_379"
-	history={
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 56600
+
+	state_category = pastoral
+
+	provinces = {
+		3847 8719 
+	}
+
+	history = {
 		owner = ENG
-		add_core_of = ENG
-		add_core_of = MER
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = ENG
+		add_core_of = MER
 	}
-	provinces={
-		3847 8719 
-	}
-	manpower=56600
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+
 }

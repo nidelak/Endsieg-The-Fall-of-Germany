@@ -1,26 +1,27 @@
-state={
-	id=1855
-	name="STATE_1855"
-		
-				
+state = {
+	id = 1855
+	name = "STATE_1855"
+	manpower = 164840
+
+	state_category = town
+
+	provinces = {
+		15673 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 15673 40 }
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 			15673 = { naval_base = 2 }
 		}
-	    victory_points = {
-		    15673 40 #Rabat
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		15673 
-	}
-	manpower=164840
-	state_category=town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,34 +1,35 @@
+state = {
+	id = 1157
+	name = "STATE_1157"
+	manpower = 326800
 
-state={
-	id=1157
-	name="STATE_1157"
-	resources={
-		steel=5.000
+	state_category = large_town
+
+	provinces = {
+		3082 5046 6862 
 	}
 
-	history={
+	resources = {
+		steel = 5
+	}
+
+	history = {
 		owner = POL
-		add_core_of = POL
+		
+		victory_points = { 6862 40 }
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
 		}
-		add_core_of = GAL
-		add_core_of = MLP
-		victory_points = {
-			6862 40 
-		}
+		
 		1939.10.12 = {
 			owner = GEN
 		}
+
+		add_core_of = POL
+		add_core_of = GAL
+		add_core_of = MLP
 	}
 
-	provinces={
-		3082 5046 6862
-	}
-	manpower=326800
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
 }

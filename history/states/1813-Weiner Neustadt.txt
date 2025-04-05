@@ -1,21 +1,24 @@
-state={
-	id=1813
-	name="STATE_1813"
-	history={
+state = {
+	id = 1813
+	name = "STATE_1813"
+	manpower = 222931
+
+	state_category = large_town
+
+	provinces = {
+		2714 5329 5332 13558 13613 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 13613 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-            13613 2 #Wiener Neustadt
-        }
+		
+		add_core_of = GER
 	}
-	provinces={
-		2714 5329 5332 13558 13613 
-	}
-	manpower=222931
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
 }

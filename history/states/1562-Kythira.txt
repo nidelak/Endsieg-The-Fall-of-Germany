@@ -1,18 +1,22 @@
-state={
-	id=1562
-	name="STATE_1562"
-	provinces={
+state = {
+	id = 1562
+	name = "STATE_1562"
+	manpower = 8642
+
+	state_category = tiny_island
+
+	provinces = {
 		20282 
 	}
-	history={
+
+	history = {
 		owner = GRE
-		add_core_of = GRE
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = GRE
 	}
-	manpower=8642
-	state_category=tiny_island
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

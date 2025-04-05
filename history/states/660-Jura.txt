@@ -1,23 +1,25 @@
+state = {
+	id = 660
+	name = "STATE_660"
+	manpower = 56036
 
-state={
-	id=660
-	name="STATE_660"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		13782 20102 20114 
+	}
+
+	history = {
 		owner = SWI
-		add_core_of = SWI
-		add_core_of = RMD
+		
+		victory_points = { 20102 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-            20102 5 #Biel
-        }
+		
+		add_core_of = SWI
+		add_core_of = RMD
 	}
-	provinces={
-		13782 20102 20114 
-	}
-	manpower=56036
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

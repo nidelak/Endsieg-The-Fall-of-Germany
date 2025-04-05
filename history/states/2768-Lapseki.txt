@@ -1,22 +1,23 @@
+state = {
+	id = 2768
+	name = "STATE_2768"
+	manpower = 8403
 
-state={
-	id=2768
-	name="STATE_2768"
-	provinces={
+	state_category = pastoral
+
+	provinces = {
 		5754 21438 21439 21556 
 	}
-	history={
+
+	history = {
 		owner = TUR
-		add_core_of = TUR
+		
 		buildings = {
 			infrastructure = 2
-
 		}
+		
+		add_core_of = TUR
 		set_demilitarized_zone = yes
-
 	}
-	manpower=8403
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

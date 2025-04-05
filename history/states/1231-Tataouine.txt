@@ -1,21 +1,22 @@
+state = {
+	id = 1231
+	name = "STATE_1231"
+	manpower = 43616
 
-state={
-	id=1231
-	name="STATE_1231"
+	state_category = wasteland
+
+	provinces = {
+		452 1826 2111 2637 2762 3815 5220 
+	}
 
 	history = {
 		owner = TUN
-		add_core_of = TUN
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = TUN
 	}
 
-	provinces={
-		452 1826 2111 2637 2762 3815 5220 
-	}
-	manpower=43616
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
 }

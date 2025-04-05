@@ -1,21 +1,25 @@
+state = {
+	id = 117
+	name = "STATE_117"
+	manpower = 139200
 
-state={
-	id=117
-	name="STATE_117"
+	state_category = rural
+
+	provinces = {
+		3011 3857 4710 5743 5844 6554 8871 9158 9621 9936 9993 10025 10027 19056 19064 19602 19633 
+	}
+
 	history = {
 		owner = SWE
-		add_core_of = SWE
+		
+		victory_points = { 3857 10 }
+		victory_points = { 10027 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = { 3857 10 }
-		victory_points = { 10027 2 }
+		
+		add_core_of = SWE
 	}
-	provinces={
-		3011 3857 4710 5743 5844 6554 8871 9158 9621 9936 9993 10025 10027 19056 19064 19602 19633 
-	}
-	manpower=139200
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = rural
+
 }

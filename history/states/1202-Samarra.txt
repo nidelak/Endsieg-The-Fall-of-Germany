@@ -1,22 +1,24 @@
+state = {
+	id = 1202
+	name = "STATE_1202"
+	manpower = 38961
 
-state={
-	id=1202
-	name="STATE_1202"
+	state_category = pastoral
+
+	provinces = {
+		211 18565 18810 18812 19202 
+	}
+
 	history = {
 		owner = IRQ
-		add_core_of = IRQ
+		
+		victory_points = { 18565 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-		    18565 5 #Samarra
-		}	
+		
+		add_core_of = IRQ
 	}
-	provinces={
-		211 18565 18810 18812 19202 
-	}
-	manpower=38961
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
 }

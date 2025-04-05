@@ -1,18 +1,20 @@
-state={
-	id=1617
-	name="STATE_1617"
-	history={
-		owner = MNC
-		add_core_of = MNC
-		victory_points = {
-			20532 2 #Monaco
-		}
-	}
-	provinces={
+state = {
+	id = 1617
+	name = "STATE_1617"
+	manpower = 22500
+
+	state_category = enclave
+
+	provinces = {
 		20532 
 	}
-	manpower=22500
-	state_category=enclave
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	history = {
+		owner = MNC
+		
+		victory_points = { 20532 2 }
+		
+		add_core_of = MNC
+	}
+
 }

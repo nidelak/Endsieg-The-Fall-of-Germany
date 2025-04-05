@@ -1,24 +1,27 @@
-state={
-	id=1521
-	name="STATE_1521"
-	provinces={
+state = {
+	id = 1521
+	name = "STATE_1521"
+	manpower = 228564
+
+	state_category = large_town
+
+	provinces = {
 		14976 20217 
 	}
-	history={
+
+	history = {
 		owner = ALB
-		add_core_of = ALB
-		add_core_of = CAB
+		
+		victory_points = { 20217 20 }
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
 		}
-        victory_points = {
-            20217 20
-        }
-    }
-	manpower=228564
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+		
+		add_core_of = ALB
+		add_core_of = CAB
+	}
+
 }

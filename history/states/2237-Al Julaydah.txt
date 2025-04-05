@@ -1,21 +1,24 @@
+state = {
+	id = 2237
+	name = "STATE_2237"
+	manpower = 1000
 
-state={
-	id=2237
-	name="STATE_2237"
+	state_category = wasteland
+
+	provinces = {
+		548 3471 
+	}
+
 	history = {
 		owner = IRQ
-		add_core_of = IRQ
-		add_core_of = JBS
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = IRQ
+		add_core_of = JBS
 		set_demilitarized_zone = yes
 	}
-	provinces={
-		548 3471 
-	}
-	manpower=1000
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

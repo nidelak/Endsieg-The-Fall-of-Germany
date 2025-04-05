@@ -1,22 +1,26 @@
+state = {
+	id = 1315
+	name = "STATE_1315"
+	manpower = 69977
 
-state={
-	id=1315
-	name="STATE_1315"
+	state_category = pastoral
+
+	provinces = {
+		250 471 702 858 925 2351 2898 3015 3022 6252 7448 7560 7902 8062 8957 
+	}
+
 	history = {
 		owner = SAU
-		add_core_of = SAU
-		add_core_of = JBS
-		add_core_of = NJD
+		
+		victory_points = { 471 10 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = { 471 10 }
+		
+		add_core_of = SAU
+		add_core_of = JBS
+		add_core_of = NJD
 	}
-	provinces={
-		250 471 702 858 925 2351 2898 3015 3022 6252 7448 7560 7902 8062 8957 
-	}
-	manpower=69977
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

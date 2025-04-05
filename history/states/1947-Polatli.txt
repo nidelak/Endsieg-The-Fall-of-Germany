@@ -1,20 +1,24 @@
-state={
-	id=1947
-	name="STATE_1947"
+state = {
+	id = 1947
+	name = "STATE_1947"
+	manpower = 97097
+
+	state_category = pastoral
+
+	provinces = {
+		977 5875 7106 7285 15225 15245 15258 15277 21602 21607 
+	}
+
 	history = {
 		owner = TUR
-		add_core_of = TUR
+		
+		victory_points = { 5875 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = { 5875 2 }
 		
+		add_core_of = TUR
 	}
-	provinces={
-		977 5875 7106 7285 15225 15245 15258 15277 21602 21607 
-	}
-	manpower=97097
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

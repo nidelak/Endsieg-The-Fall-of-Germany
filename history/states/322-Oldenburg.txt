@@ -1,23 +1,25 @@
+state = {
+	id = 322
+	name = "STATE_322"
+	manpower = 226224
 
-state={
-	id=322
-	name="STATE_322"
-	provinces={
+	state_category = large_town
+
+	provinces = {
 		1716 8727 11324 11372 11405 11463 
 	}
-	history={
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 11372 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = GER
 		add_core_of = OLD
-        victory_points = {
-            11372 10 #Oldenburg
-        }
-    }
-	manpower=226224
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+	}
+
 }

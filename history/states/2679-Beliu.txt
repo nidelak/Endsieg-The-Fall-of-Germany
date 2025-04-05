@@ -1,20 +1,24 @@
-state={
-	id=2679
-	name="STATE_2679"
-	provinces={
+state = {
+	id = 2679
+	name = "STATE_2679"
+	manpower = 46723
+
+	state_category = pastoral
+
+	provinces = {
 		1688 14008 
 	}
-	history={
+
+	history = {
 		owner = ROM
-		add_core_of = ROM
-		add_core_of = TRA
-		add_core_of = CRS
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = ROM
+		add_core_of = TRA
+		add_core_of = CRS
 	}
-	manpower=46723
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

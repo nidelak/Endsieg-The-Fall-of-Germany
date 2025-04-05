@@ -1,25 +1,24 @@
-state={
-	id=1829
-	name="STATE_1829"
-			
-				
+state = {
+	id = 1829
+	name = "STATE_1829"
+	manpower = 48620
+
+	state_category = pastoral
+
+	provinces = {
+		2120 20879 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 20879 20 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-	
-	    victory_points = {
-		    20879 20 #Marrakesh
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		2120 20879 
-	}
-	manpower=48620
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

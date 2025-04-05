@@ -1,19 +1,24 @@
-state={
-	id=16
-	name="STATE_16"
+state = {
+	id = 16
+	name = "STATE_16"
+	manpower = 6300
+
+	state_category = pastoral
+
+	provinces = {
+		2999 
+	}
+
 	history = {
 		owner = SOV
-		add_core_of = SOV
-		add_core_of = RUS
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = SOV
+		add_core_of = RUS
 		add_core_of = SAP
 	}
-	provinces={
-		2999 
-	}
-	manpower=6300
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+
 }

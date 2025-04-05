@@ -1,21 +1,23 @@
-state={
-	id=2936
-	name="STATE_2936"
-	provinces={
+state = {
+	id = 2936
+	name = "STATE_2936"
+	manpower = 9
+
+	state_category = wasteland
+
+	provinces = {
 		544 
 	}
-	history={
+
+	history = {
 		owner = SAU
-		add_core_of = SAU
-		add_core_of = NJD
+		
 		buildings = {
 			infrastructure = 1
-
 		}
-
+		
+		add_core_of = SAU
+		add_core_of = NJD
 	}
-	manpower=9
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,22 +1,26 @@
-state={
-	id=2267
-	name="STATE_2267"
+state = {
+	id = 2267
+	name = "STATE_2267"
+	manpower = 10758
+
+	state_category = pastoral
+
+	provinces = {
+		1719 
+	}
+
 	history = {
 		owner = SOV
-		add_core_of = SOV
-		add_core_of = TCC
-		add_core_of = ARM
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = SOV
+		add_core_of = TCC
+		add_core_of = ARM
 		add_core_of = NGK
 		add_core_of = AZR
 	}
-	provinces={
-		1719 
-	}
-	manpower=10758
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,24 +1,26 @@
+state = {
+	id = 479
+	name = "STATE_479"
+	manpower = 395000
 
-state={
-	id=479
-	name="STATE_479"
-	provinces={
+	state_category = city
+
+	provinces = {
 		8641 11994 12077 12100 12130 12151 
 	}
-	history={
+
+	history = {
 		owner = HOL
-		add_core_of = HOL
-		add_core_of = BRB
+		
+		victory_points = { 12077 20 }
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		victory_points = {
-			12077 20 #Eindhoven
-		}
+		
+		add_core_of = HOL
+		add_core_of = BRB
 	}
-	manpower=395000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
 }

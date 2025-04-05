@@ -1,22 +1,23 @@
-state={
-	id=2884
-	name="STATE_2884"
-	history={
-		owner = ITA
-		add_core_of = ITA
-		add_core_of = PRM
-		buildings = {
-			infrastructure = 3
+state = {
+	id = 2884
+	name = "STATE_2884"
+	manpower = 43901
 
-		}
+	state_category = pastoral
 
-	}
-
-	provinces={
+	provinces = {
 		14497 
 	}
-	manpower=43901
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	history = {
+		owner = ITA
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+		add_core_of = ITA
+		add_core_of = PRM
+	}
+
 }

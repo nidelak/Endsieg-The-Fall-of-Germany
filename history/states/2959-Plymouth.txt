@@ -1,28 +1,27 @@
-state={
-	id=2959
-	name="STATE_2959"
-	provinces={
+state = {
+	id = 2959
+	name = "STATE_2959"
+	manpower = 211368
+
+	state_category = city
+
+	provinces = {
 		5768 
 	}
-	history={
+
+	history = {
 		owner = ENG
-		add_core_of = ENG
-		add_core_of = WSX
+		
+		victory_points = { 5768 20 }
+		
 		buildings = {
 			infrastructure = 3
-			5768 = {
-				naval_base = 8
 
-			}
-
+			5768 = { naval_base = 8 }
 		}
-		victory_points = {
-			5768 20 
-		}
-
+		
+		add_core_of = ENG
+		add_core_of = WSX
 	}
-	state_category = city
-	manpower=211368
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

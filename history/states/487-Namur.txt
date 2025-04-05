@@ -1,33 +1,33 @@
+state = {
+	id = 487
+	name = "STATE_487"
+	manpower = 257000
 
-state={
-	id=487
-	name="STATE_487"
+	state_category = city
 
-	history={
-		owner = BEL
-		add_core_of = BEL
-		buildings = {
-			infrastructure = 3
-			19890 = { bunker = 6 }
-			12516 = { bunker = 1 }
-			4555 = { bunker = 3 }
-			12620 = { bunker = 1 }
-			1891 = { bunker = 1 }
-			11829 = { bunker = 1 }
-		}
-		add_core_of = WLN
-		add_core_of = NMR
-		victory_points = {
-			19890 10 
-		}
-
-	}
-
-	provinces={
+	provinces = {
 		1891 4555 11829 12516 12620 19890 
 	}
-	manpower=257000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	history = {
+		owner = BEL
+		
+		victory_points = { 19890 10 }
+		
+		buildings = {
+			infrastructure = 3
+
+			1891 = { bunker = 1 }
+			4555 = { bunker = 3 }
+			11829 = { bunker = 1 }
+			12516 = { bunker = 1 }
+			12620 = { bunker = 1 }
+			19890 = { bunker = 6 }
+		}
+		
+		add_core_of = BEL
+		add_core_of = WLN
+		add_core_of = NMR
+	}
+
 }

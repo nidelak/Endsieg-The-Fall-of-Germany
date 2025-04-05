@@ -1,35 +1,34 @@
+state = {
+	id = 1654
+	name = "STATE_1654"
+	manpower = 529790
 
-state={
-	id=1654
-	name="STATE_1654"
-	history={
+	state_category = large_city
+
+	provinces = {
+		6758 7914 12405 12552 12567 12594 12656 19942 
+	}
+
+	resources = {
+		steel = 19
+		aluminium = 6
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 6758 5 }
+		victory_points = { 12567 5 }
+		victory_points = { 19942 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = SIL
 		add_core_of = UPS
-		victory_points = {
-			19942 10 #Gleiwitz
-		}
-		victory_points = {
-			6758 5 #Kandrzin-Cosel
-		}
-		victory_points = {
-			12567 5 #Hindenburg
-		}
-    }
-	resources={
-		steel=19
-		aluminium=6
 	}
-	provinces={
-		6758 7914 12405 12552 12567 12594 12656 19942 
-	}
-	manpower=529790
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+
 }

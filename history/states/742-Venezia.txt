@@ -1,32 +1,34 @@
+state = {
+	id = 742
+	name = "STATE_742"
+	manpower = 163849
 
-state={
-	id=742
-	name="STATE_742"
-	resources={
+	state_category = town
+
+	provinces = {
+		20051 
+	}
+
+	resources = {
 		steel = 5
 	}
+
 	history = {
 		owner = ITA
-		add_core_of = ITA
-		add_core_of = VNT
+		
+		victory_points = { 20051 5 }
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 1
+
 			20051 = { naval_base = 6 }
 		}
-		victory_points = {
-			20051 5
-		}
-
+		
+		add_core_of = ITA
+		add_core_of = VNT
 	}
 
-	provinces={
-		20051 
-	}
-	manpower=163849
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
 }

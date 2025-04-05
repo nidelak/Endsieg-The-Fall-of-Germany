@@ -1,29 +1,26 @@
+state = {
+	id = 2757
+	name = "STATE_2757"
+	manpower = 5404
 
-state={
-	id=2757
-	name="STATE_2757"
+	state_category = small_island
 
-	history={
-		owner = TUR
-		add_core_of = TUR
-		add_core_of = THR
-		buildings = {
-			infrastructure = 2
-			20288 = {
-				naval_base = 1
-
-			}
-
-		}
-		set_demilitarized_zone = yes
-
-	}
-
-	provinces={
+	provinces = {
 		20288 
 	}
-	manpower=5404
-	buildings_max_level_factor=1.000
-	state_category=small_island
-	local_supplies=0.000
+
+	history = {
+		owner = TUR
+		
+		buildings = {
+			infrastructure = 2
+
+			20288 = { naval_base = 1 }
+		}
+		
+		add_core_of = TUR
+		add_core_of = THR
+		set_demilitarized_zone = yes
+	}
+
 }

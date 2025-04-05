@@ -1,25 +1,24 @@
-state={
-	id=1836
-	name="STATE_1836"
-			
-				
+state = {
+	id = 1836
+	name = "STATE_1836"
+	manpower = 138840
+
+	state_category = rural
+
+	provinces = {
+		4 878 2046 2789 3183 3688 3897 6894 7020 15760 15766 15780 20875 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 2789 2 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	
-	    victory_points = {
-		    2789 2 #Errachidia
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		4 878 2046 2789 3183 3688 3897 6894 7020 15760 15766 15780 20875 
-	}
-	manpower=138840
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

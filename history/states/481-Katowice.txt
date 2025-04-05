@@ -1,29 +1,36 @@
+state = {
+	id = 481
+	name = "STATE_481"
+	manpower = 552577
 
-state={
-	id=481
-	name="STATE_481"
-	provinces={
+	state_category = large_city
+
+	provinces = {
 		5322 8816 
 	}
-	resources = { steel = 19 aluminium = 7 }
-	history={
+
+	resources = {
+		steel = 19
+		aluminium = 7
+	}
+
+	history = {
 		owner = POL
-		add_core_of = POL
+		
+		victory_points = { 5322 20 }
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5
 		}
-		add_core_of = SIL
-		add_core_of = UPS
-        victory_points = {
-            5322 20
-        }
+		
 		1939.10.12 = {
 			owner = GER
 		}
+
+		add_core_of = POL
+		add_core_of = SIL
+		add_core_of = UPS
 	}
-	manpower=552577
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+
 }

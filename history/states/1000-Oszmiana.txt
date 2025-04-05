@@ -1,26 +1,30 @@
+state = {
+	id = 1000
+	name = "STATE_1000"
+	manpower = 137660
 
-state={
-	id=1000
-	name="STATE_1000"
-	provinces={
+	state_category = rural
+
+	provinces = {
 		7154 7842 7860 10792 10935 20001 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		1939.10.12 = {
+			owner = SOV
+		}
+
+		add_core_of = POL
 		add_core_of = CLT
 		add_claim_by = LIT
 		add_core_of = BLR
 		add_core_of = DKJ
-		1939.10.12 = {
-			owner = SOV
-		}
-  	}
-	manpower=137660
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = rural
+	}
+
 }

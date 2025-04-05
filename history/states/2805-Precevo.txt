@@ -1,25 +1,24 @@
+state = {
+	id = 2805
+	name = "STATE_2805"
+	manpower = 12085
 
-state={
-	id=2805
-	name="STATE_2805"
+	state_category = pastoral
 
-	history={
+	provinces = {
+		14856 17206 
+	}
+
+	history = {
 		owner = YUG
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
 		add_core_of = YUG
 		add_core_of = SER
 		add_claim_by = BUL
-		buildings = {
-			infrastructure = 2
-
-		}
-
 	}
 
-	provinces={
-		14856 17206 
-	}
-	manpower=12085
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
 }

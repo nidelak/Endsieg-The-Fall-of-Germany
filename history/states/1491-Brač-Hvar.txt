@@ -1,25 +1,24 @@
+state = {
+	id = 1491
+	name = "STATE_1491"
+	manpower = 32505
 
-state={
-	id=1491
-	name="STATE_1491"
+	state_category = small_island
 
-	history={
-		owner = YUG
-		add_core_of = CRO
-		buildings = {
-			infrastructure = 2
-
-		}
-		add_core_of = YUG
-		add_core_of = DLM
-
-	}
-
-	provinces={
+	provinces = {
 		20140 
 	}
-	manpower=32505
-	buildings_max_level_factor=1.000
-	state_category=small_island
-	local_supplies=0.000
+
+	history = {
+		owner = YUG
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+		add_core_of = CRO
+		add_core_of = YUG
+		add_core_of = DLM
+	}
+
 }

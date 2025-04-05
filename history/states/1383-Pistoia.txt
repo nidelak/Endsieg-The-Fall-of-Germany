@@ -1,20 +1,25 @@
-state={
-	id=1383
-	name="STATE_1383"
+state = {
+	id = 1383
+	name = "STATE_1383"
+	manpower = 211000
+
+	state_category = large_town
+
+	provinces = {
+		14605 14625 
+	}
+
 	history = {
 		owner = ITA
-		add_core_of = ITA
-		add_core_of = TUS
+		
+		victory_points = { 14625 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
-		victory_points = { 14625 5 }
+		
+		add_core_of = ITA
+		add_core_of = TUS
 	}
-	provinces={
-		14605 14625 
-	}
-	manpower=211000
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

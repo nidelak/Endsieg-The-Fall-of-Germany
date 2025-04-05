@@ -1,24 +1,28 @@
-state={
-	id=2569
-	name="STATE_2569"
-	provinces={
+state = {
+	id = 2569
+	name = "STATE_2569"
+	manpower = 56147
+
+	state_category = pastoral
+
+	provinces = {
 		6176 11102 11111 11158 11183 20693 
 	}
-	history={
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 11183 2 }
+		
 		buildings = {
 			infrastructure = 4
+
 			11183 = { naval_base = 1 }
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = HAN
-		victory_points = {
-			11183 2 #Stade
-		}
 	}
-	manpower=56147
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

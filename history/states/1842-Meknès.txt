@@ -1,25 +1,25 @@
-state={
-	id=1842
-	name="STATE_1842"
-		
-				
+state = {
+	id = 1842
+	name = "STATE_1842"
+	manpower = 105300
+
+	state_category = rural
+
+	provinces = {
+		1572 20892 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 1572 20 }
+		
 		buildings = {
 			infrastructure = 2
 			air_base = 4
 		}
-	    victory_points = {
-		    1572 20 #Meknes
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		1572 20892 
-	}
-	manpower=105300
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

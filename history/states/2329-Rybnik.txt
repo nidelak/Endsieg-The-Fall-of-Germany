@@ -1,26 +1,30 @@
-state={
-	id=2329
-	name="STATE_2329"
-	provinces={
+state = {
+	id = 2329
+	name = "STATE_2329"
+	manpower = 236818
+
+	state_category = large_town
+
+	provinces = {
 		6515 6534 12675 12690 12711 12718 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		victory_points = {
-			12690 5 #Rybnik
-		}
+		
+		victory_points = { 12690 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SIL
-		add_core_of = UPS
+		
 		1939.10.12 = {
 			owner = GER
 		}
-  	}
-	manpower=236818
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+		add_core_of = POL
+		add_core_of = SIL
+		add_core_of = UPS
+	}
+
 }

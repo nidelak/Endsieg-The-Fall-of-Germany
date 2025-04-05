@@ -1,19 +1,24 @@
-state={
-	id=1899
-	name="STATE_1899"
+state = {
+	id = 1899
+	name = "STATE_1899"
+	manpower = 113510
+
+	state_category = rural
+
+	provinces = {
+		21241 21244 
+	}
+
 	history = {
 		owner = PAL
-		add_core_of = PAL
+		
 		victory_points = { 21241 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = PAL
 	}
-	provinces={
-		21241 21244 
-	}
-	manpower=113510
-	state_category = rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

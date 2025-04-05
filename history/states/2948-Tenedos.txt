@@ -1,28 +1,26 @@
-state={
-	id=2948
-	name="STATE_2948"
+state = {
+	id = 2948
+	name = "STATE_2948"
+	manpower = 2400
 
-	history={
-		owner = TUR
-		add_core_of = TUR
-		add_core_of = THR
-		buildings = {
-			infrastructure = 2
-			11865 = {
-				naval_base = 1
+	state_category = tiny_island
 
-			}
-
-		}
-		set_demilitarized_zone = yes
-
-	}
-
-	provinces={
+	provinces = {
 		11865 
 	}
-	manpower=2400
-	buildings_max_level_factor=1.000
-	state_category=tiny_island
-	local_supplies=0.000
+
+	history = {
+		owner = TUR
+		
+		buildings = {
+			infrastructure = 2
+
+			11865 = { naval_base = 1 }
+		}
+		
+		add_core_of = TUR
+		add_core_of = THR
+		set_demilitarized_zone = yes
+	}
+
 }

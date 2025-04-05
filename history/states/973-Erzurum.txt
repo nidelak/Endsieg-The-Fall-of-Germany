@@ -1,21 +1,25 @@
+state = {
+	id = 973
+	name = "STATE_973"
+	manpower = 102981
 
-state={
-	id=973
-	name="STATE_973"
+	state_category = rural
+
+	provinces = {
+		627 1540 1816 8076 15186 15198 15224 21522 21630 21631 21632 
+	}
+
 	history = {
 		owner = TUR
-		add_core_of = TUR
-		add_core_of = WAM
+		
+		victory_points = { 21522 10 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = { 21522 10 }
+		
+		add_core_of = TUR
+		add_core_of = WAM
 	}
-	provinces={
-		627 1540 1816 8076 15186 15198 15224 21522 21630 21631 21632 
-	}
-	manpower=102981
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

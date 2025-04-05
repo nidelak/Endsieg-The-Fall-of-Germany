@@ -1,21 +1,24 @@
-state={
-	id=1803
-	name="STATE_1803"
-	history={
+state = {
+	id = 1803
+	name = "STATE_1803"
+	manpower = 214515
+
+	state_category = large_town
+
+	provinces = {
+		3223 7710 13358 13365 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 7710 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-            7710 2 #Krems an der Donau
-        }
+		
+		add_core_of = GER
 	}
-	provinces={
-		3223 7710 13358 13365 
-	}
-	manpower=214515
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
 }

@@ -1,21 +1,24 @@
-state={
-	id=1538
-	name="STATE_1538"
-	history={
+state = {
+	id = 1538
+	name = "STATE_1538"
+	manpower = 64552
+
+	state_category = pastoral
+
+	provinces = {
+		1856 20265 20266 20269 20270 
+	}
+
+	history = {
 		owner = GRE
-		add_core_of = GRE
+		
+		victory_points = { 20269 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			20269 2 #Trípoli
-		}
+		
+		add_core_of = GRE
 	}
-	provinces={
-		1856 20265 20266 20269 20270 
-	}
-	manpower=64552
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,23 +1,26 @@
-state={
-	id=1664
-	name="STATE_1664"
-	history={
+state = {
+	id = 1664
+	name = "STATE_1664"
+	manpower = 223511
+
+	state_category = large_town
+
+	provinces = {
+		3984 5614 6140 12364 12449 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 12364 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = SIL
-		victory_points = {
-			12364 5 #Hirschberg im Riesengebirge
-		}
-    }
-	provinces={
-		3984 5614 6140 12364 12449 
 	}
-	manpower=223511
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
 }

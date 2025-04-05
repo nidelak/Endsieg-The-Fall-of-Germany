@@ -1,23 +1,28 @@
+state = {
+	id = 1481
+	name = "STATE_1481"
+	manpower = 41751
 
-state={
-	id=1481
-	name="STATE_1481"
-	provinces={
+	state_category = pastoral
+
+	provinces = {
 		20170 20171 
 	}
+
 	history = {
 		owner = YUG
-		add_core_of = CRO
+		
+		victory_points = { 20171 5 }
+		
 		buildings = {
 			infrastructure = 3
+
 			20171 = { naval_base = 1 }
 		}
+		
+		add_core_of = CRO
 		add_core_of = YUG
 		add_core_of = DLM
-		victory_points = { 20171 5 }
 	}
-	manpower=41751
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
 }

@@ -1,25 +1,24 @@
+state = {
+	id = 1971
+	name = "STATE_1971"
+	manpower = 5129
 
-state={
-	id=1971
-	name="STATE_1971"
+	state_category = enclave
 
-	history={
+	provinces = {
+		17997 20212 
+	}
+
+	history = {
 		owner = YUG
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
 		add_core_of = YUG
 		add_core_of = SER
 		add_claim_by = BUL
-		buildings = {
-			infrastructure = 2
-
-		}
-
 	}
 
-	provinces={
-		17997 20212 
-	}
-	manpower=5129
-	buildings_max_level_factor=1.000
-	state_category=enclave
-	local_supplies=0.000
 }

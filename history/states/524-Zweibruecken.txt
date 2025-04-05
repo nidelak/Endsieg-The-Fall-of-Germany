@@ -1,25 +1,26 @@
+state = {
+	id = 524
+	name = "STATE_524"
+	manpower = 209907
 
-state={
-	id=524
-	name="STATE_524"
-	provinces={
+	state_category = large_town
+
+	provinces = {
 		6957 9577 13035 13073 20742 
 	}
-	history={
-	    owner = GER
-		add_core_of = GER
+
+	history = {
+		owner = GER
+		
+		victory_points = { 6957 2 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = GER
 		add_core_of = BAY
 		add_core_of = BPA
-        victory_points = {
-            6957 2 #Zweibrücken
-        }
-		
-    }
-	manpower=209907
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+	}
+
 }

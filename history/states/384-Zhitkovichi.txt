@@ -1,20 +1,23 @@
+state = {
+	id = 384
+	name = "STATE_384"
+	manpower = 36771
 
-state={
-	id=384
-	name="STATE_384"
-	provinces={
+	state_category = pastoral
+
+	provinces = {
 		3036 4141 5049 8690 11583 11664 11665 11749 11791 
 	}
+
 	history = {
 		owner = SOV
-		add_core_of = SOV
-		add_core_of = BLR
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = SOV
+		add_core_of = BLR
 	}
-	manpower=36771
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
 }

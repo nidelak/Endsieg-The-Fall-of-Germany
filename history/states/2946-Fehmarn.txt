@@ -1,21 +1,27 @@
-state={
-	id=2946
-	name="STATE_2946"
-	provinces={
+state = {
+	id = 2946
+	name = "STATE_2946"
+	manpower = 7825
+
+	state_category = pastoral
+
+	provinces = {
 		19647 
 	}
+
 	history = {
 		owner = GER
+		
+		victory_points = { 19647 1 }
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
 		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = SHL
 		add_core_of = HLS
-		buildings = {
-			infrastructure = 2
-		}
 	}
-	state_category = pastoral
-	manpower=7825
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

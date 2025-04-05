@@ -1,25 +1,25 @@
+state = {
+	id = 1269
+	name = "STATE_1269"
+	manpower = 270702
 
-state={
-	id=1269
-	name="STATE_1269"
+	state_category = city
+
+	provinces = {
+		4025 8670 18736 19120 19124 19126 19127 19130 19132 19133 
+	}
+
 	history = {
 		owner = IRQ
-		add_core_of = IRQ
+		
+		victory_points = { 18736 10 }
+		victory_points = { 19127 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-		    18736 10 #Nasiriyah
-		}	
-		victory_points = {
-		    19127 2 #Al-Shatrah
-		}	
+		
+		add_core_of = IRQ
 	}
-	provinces={
-		4025 8670 18736 19120 19124 19126 19127 19130 19132 19133 
-	}
-	manpower=270702
-	state_category=city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,28 +1,26 @@
+state = {
+	id = 927
+	name = "STATE_927"
+	manpower = 244230
 
-state={
-	id=927
-	name="STATE_927"
+	state_category = large_town
 
-	history={
+	provinces = {
+		4009 7586 9035 19760 
+	}
+
+	history = {
 		owner = SPR
-		add_core_of = CAT
-		add_core_of = SPR
+		
+		victory_points = { 7586 10 }
+		victory_points = { 19760 10 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			19760 10 #Tarragona
-		}
-		victory_points = {
-			7586 10 #Reus
-		}
+		
+		add_core_of = CAT
+		add_core_of = SPR
 	}
 
-	provinces={
-		4009 7586 9035 19760 
-	}
-	manpower=244230
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
 }

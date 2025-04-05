@@ -1,21 +1,25 @@
-state={
-	id=620
-	name="STATE_620"
-	provinces={
+state = {
+	id = 620
+	name = "STATE_620"
+	manpower = 240900
+
+	state_category = large_town
+
+	provinces = {
 		494 1219 1416 4293 8500 13494 13561 13663 13677 13693 13712 13723 13731 
 	}
-	history={
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
-		add_core_of = ORL
+		
+		victory_points = { 13693 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
-        victory_points = {
-            13693 5 #Blois
-        }
-    }
-	manpower=240900
-	buildings_max_level_factor=1.000
-	state_category = large_town
+		
+		add_core_of = FRA
+		add_core_of = ORL
+	}
+
 }

@@ -1,22 +1,24 @@
+state = {
+	id = 308
+	name = "STATE_308"
+	manpower = 56818
 
-state={
-	id=308
-	name="STATE_308"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		9561 11246 11275 
+	}
+
+	history = {
 		owner = IRE
-		add_core_of = IRE
+		
+		victory_points = { 11275 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-            11275 2
-        }
+		
+		add_core_of = IRE
 	}
-	provinces={
-		9561 11246 11275 
-	}
-	manpower=56818
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
+
 }

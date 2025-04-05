@@ -1,24 +1,27 @@
-state={
-	id=1435
-	name="STATE_1435"
-	history={
+state = {
+	id = 1435
+	name = "STATE_1435"
+	manpower = 219066
+
+	state_category = large_town
+
+	provinces = {
+		7796 9313 12510 12535 
+	}
+
+	history = {
 		owner = GER
+		
+		victory_points = { 9313 2 }
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
 		add_core_of = GER
 		add_core_of = CZE
 		add_core_of = BOH
 		add_core_of = SDT
-        victory_points = {
-            9313 2 #Trautenau
-        }
-		buildings = {
-			infrastructure = 3
-		}
 	}
-	provinces={
-		7796 9313 12510 12535 
-	}
-	manpower=219066
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
 }

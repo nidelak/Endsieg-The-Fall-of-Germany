@@ -1,24 +1,26 @@
-state={
-	id=2874
-	name="STATE_2874"
+state = {
+	id = 2874
+	name = "STATE_2874"
+	manpower = 220412
 
-	history={
+	state_category = town
+
+	provinces = {
+		73 12493 12521 12593 
+	}
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
-		add_core_of = PIC
+		
+		victory_points = { 73 5 }
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		victory_points = {
-			73 5 
-		}
+		
+		add_core_of = FRA
+		add_core_of = PIC
 	}
-	provinces={
-		73 12493 12521 12593 
-	}
-	manpower=220412
-	state_category=town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

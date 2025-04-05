@@ -1,27 +1,27 @@
+state = {
+	id = 469
+	name = "STATE_469"
+	manpower = 283783
 
-state={
-	id=469
-	name="STATE_469"
-	history={
+	state_category = city
+
+	provinces = {
+		12434 12461 20735 
+	}
+
+	history = {
 		owner = GER
-		victory_points = {
-            12434 20 #Bonn
-        }
-        victory_points = {
-            12461 2 #Euskirchen
-        }
-		add_core_of = GER
+		
+		victory_points = { 12434 20 }
+		victory_points = { 12461 2 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = RHN
-    }
-	provinces={
-		12434 12461 20735 
 	}
-	manpower=283783
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+
 }

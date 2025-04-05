@@ -1,29 +1,29 @@
+state = {
+	id = 91
+	name = "STATE_91"
+	manpower = 48275
 
-state={
-	id=91
-	name="STATE_91"
+	state_category = pastoral
 
-	history={
+	provinces = {
+		989 5479 6312 10311 16678 17073 18195 19997 
+	}
+
+	history = {
 		owner = LAT
-		add_core_of = LAT
+		
+		victory_points = { 6312 2 }
+		
 		buildings = {
 			infrastructure = 3
-
 		}
-		add_core_of = CUR
-		victory_points = {
-			6312 2 
-		}
+		
 		1940.8.6 = {
 			owner = SOV
 		}
+
+		add_core_of = LAT
+		add_core_of = CUR
 	}
 
-	provinces={
-		989 5479 6312 10311 16678 17073 18195 19997 
-	}
-	manpower=48275
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
 }

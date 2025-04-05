@@ -1,29 +1,24 @@
+state = {
+	id = 2020
+	name = "STATE_2020"
+	manpower = 31024
 
-state={
-	id=2020
-	name="STATE_2020"
+	state_category = pastoral
 
-	history={
-		owner = GRE
-		add_core_of = GRE
-		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = {
-			20256 5 
-		}
-		victory_points = {
-			15110 2 
-		}
-
-	}
-
-	provinces={
+	provinces = {
 		622 3933 15142 20256 
 	}
-	manpower=31024
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	history = {
+		owner = GRE
+		
+		victory_points = { 20256 5 }
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+		add_core_of = GRE
+	}
+
 }

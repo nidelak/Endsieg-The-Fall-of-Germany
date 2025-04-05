@@ -1,25 +1,27 @@
-state={
-	id=1895
-	name="STATE_1895"
-				
-	history = {
-		owner = EGY
-		add_core_of = EGY
-		buildings = {
-			21189 = { naval_base = 8 }
-			industrial_complex = 1
-			infrastructure = 3
-		}
-	    victory_points = {
-		    21189 40 #Alexandria
-		}
-	}
-	
-	provinces={
+state = {
+	id = 1895
+	name = "STATE_1895"
+	manpower = 794958
+
+	state_category = large_city
+
+	provinces = {
 		8995 21181 21189 21207 
 	}
-	manpower=794958
-	state_category=large_city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	history = {
+		owner = EGY
+		
+		victory_points = { 21189 40 }
+		
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+
+			21189 = { naval_base = 8 }
+		}
+		
+		add_core_of = EGY
+	}
+
 }

@@ -1,19 +1,22 @@
+state = {
+	id = 1343
+	name = "STATE_1343"
+	manpower = 4480
 
-state={
-	id=1343
-	name="STATE_1343"
+	state_category = wasteland
+
+	provinces = {
+		16112 17288 
+	}
+
 	history = {
 		owner = UAE
-		add_core_of = UAE
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = UAE
 	}
-	provinces={
-		16112 17288 
-	}
-	manpower=4480
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

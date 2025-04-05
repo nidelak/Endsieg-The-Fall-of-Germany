@@ -1,27 +1,25 @@
+state = {
+	id = 2831
+	name = "STATE_2831"
+	manpower = 95023
 
-state={
-	id=2831
-	name="STATE_2831"
+	state_category = rural
 
-	history={
-		owner = YUG
-		add_core_of = CRO
-		add_core_of = YUG
-		buildings = {
-			infrastructure = 3
-
-		}
-		victory_points = { #Sisak
-			4635 4
-		}
-
-	}
-
-	provinces={
+	provinces = {
 		4635 5612 17666 18483 
 	}
-	manpower=95023
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	history = {
+		owner = YUG
+		
+		victory_points = { 4635 4 }
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+		add_core_of = CRO
+		add_core_of = YUG
+	}
+
 }

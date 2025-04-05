@@ -1,19 +1,24 @@
-state={
-	id=1913
-	name="STATE_1913"
+state = {
+	id = 1913
+	name = "STATE_1913"
+	manpower = 28520
+
+	state_category = pastoral
+
+	provinces = {
+		7787 21273 
+	}
+
 	history = {
 		owner = JOR
-		add_core_of = JOR
+		
 		victory_points = { 7787 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = JOR
 	}
-	provinces={
-		7787 21273 
-	}
-	manpower=28520
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

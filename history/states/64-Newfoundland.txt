@@ -1,25 +1,28 @@
+state = {
+	id = 64
+	name = "STATE_64"
+	manpower = 284872
 
-state={
-	id=64
-	name="STATE_64"
-	provinces={
+	state_category = city
+
+	provinces = {
 		19385 
 	}
+
 	history = {
 		owner = ENG
-		add_core_of = NFL
-		add_core_of = CAN
+		
 		victory_points = { 19385 10 }
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			19385 = {
-				naval_base = 1
-			}
+
+			19385 = { naval_base = 1 }
 		}
+		
+		add_core_of = NFL
+		add_core_of = CAN
 	}
-	manpower=284872
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+
 }

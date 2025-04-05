@@ -1,21 +1,25 @@
+state = {
+	id = 1410
+	name = "STATE_1410"
+	manpower = 587000
 
-state={
-	id=1410
-	name="STATE_1410"
+	state_category = large_city
+
+	provinces = {
+		1646 3628 8900 9245 15217 15248 15257 15274 
+	}
+
 	history = {
 		owner = ITA
-		add_core_of = ITA
-		add_core_of = CAL
+		
+		victory_points = { 15274 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = { 15274 5 }
+		
+		add_core_of = ITA
+		add_core_of = CAL
 	}
-	provinces={
-		1646 3628 8900 9245 15217 15248 15257 15274 
-	}
-	manpower=587000
-	state_category=large_city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

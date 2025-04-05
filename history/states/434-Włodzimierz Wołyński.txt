@@ -1,27 +1,30 @@
+state = {
+	id = 434
+	name = "STATE_434"
+	manpower = 242500
 
-state={
-	id=434
-	name="STATE_434"
-	provinces={
+	state_category = large_town
+
+	provinces = {
 		2165 3598 5578 12259 12425 12531 12563 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		add_core_of = UKR
-		add_core_of = VLH
+		
+		victory_points = { 2165 5 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-    	victory_points = {
-   	    	2165 5
-   		}
+		
 		1939.10.12 = {
 			owner = SOV
 		}
-  	}
-	manpower=242500
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
+
+		add_core_of = POL
+		add_core_of = UKR
+		add_core_of = VLH
+	}
+
 }

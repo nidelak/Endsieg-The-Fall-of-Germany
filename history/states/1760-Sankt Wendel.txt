@@ -1,23 +1,26 @@
-state={
-	id=1760
-	name="STATE_1760"
-	history={
+state = {
+	id = 1760
+	name = "STATE_1760"
+	manpower = 36401
+
+	state_category = pastoral
+
+	provinces = {
+		12853 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 12853 2 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = RHN
-        victory_points = {
-            12853 2 #Idar-Oberstein
-        }
-    }
-	provinces={
-		12853 
 	}
-	manpower=36401
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
+
 }

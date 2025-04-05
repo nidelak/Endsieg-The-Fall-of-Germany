@@ -1,23 +1,27 @@
+state = {
+	id = 5
+	name = "STATE_5"
+	manpower = 118100
 
-state={
-	id=5
-	name="STATE_5"
-	provinces={
+	state_category = rural
+
+	provinces = {
 		6701 8452 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		add_core_of = MZV
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
 		1939.10.12 = {
 			owner = GER
 		}
-  	}
-	manpower=118100
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+		add_core_of = POL
+		add_core_of = MZV
+	}
+
 }

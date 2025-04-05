@@ -1,28 +1,31 @@
-state={
-	id=2333
-	name="STATE_2333"
-	provinces={
+state = {
+	id = 2333
+	name = "STATE_2333"
+	manpower = 294266
+
+	state_category = city
+
+	provinces = {
 		12284 12334 12376 12411 
 	}
-	
-	history={
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
-		add_core_of = FLA
+		
+		victory_points = { 12284 5 }
+		
 		buildings = {
 			infrastructure = 4
+
 			12284 = { naval_base = 6 }
 		}
-		victory_points = {
-			12284 5 #Dunkirk
-		}
+		
 		1940.7.10 = {
 			owner = BNF
 		}
+
+		add_core_of = FRA
+		add_core_of = FLA
 	}
-	
-	manpower=294266
-	state_category=city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

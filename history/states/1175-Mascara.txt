@@ -1,25 +1,24 @@
+state = {
+	id = 1175
+	name = "STATE_1175"
+	manpower = 188185
 
-state={
-	id=1175
-	name="STATE_1175"
-				
+	state_category = town
+
+	provinces = {
+		4618 8838 20948 20973 
+	}
+
 	history = {
 		owner = FRA
-		add_core_of = ALG
+		
+		victory_points = { 4618 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-	
-	    victory_points = {
-		    4618 5 #Mascara
-			}
+		
+		add_core_of = ALG
 	}
-	
-	provinces={
-		4618 8838 20948 20973 
-	}
-	manpower=188185
-	state_category=town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

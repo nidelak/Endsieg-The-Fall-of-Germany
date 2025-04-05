@@ -1,19 +1,23 @@
-state={
-	id=2132
-	name="STATE_2132"
-	provinces={
+state = {
+	id = 2132
+	name = "STATE_2132"
+	manpower = 5000
+
+	state_category = enclave
+
+	provinces = {
 		3731 
 	}
+
 	history = {
 		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = SOV
+		add_core_of = UKR
 	}
-	manpower=5000
-	state_category=enclave
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

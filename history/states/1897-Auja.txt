@@ -1,18 +1,22 @@
-state={
-	id=1897
-	name="STATE_1897"
+state = {
+	id = 1897
+	name = "STATE_1897"
+	manpower = 6000
+
+	state_category = pastoral
+
+	provinces = {
+		21211 21214 21217 
+	}
+
 	history = {
 		owner = PAL
-		add_core_of = PAL
+		
 		buildings = {
 			infrastructure = 1
 		}
+		
+		add_core_of = PAL
 	}
-	provinces={
-		21211 21214 21217 
-	}
-	manpower=6000
-	state_category = pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

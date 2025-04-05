@@ -1,23 +1,26 @@
+state = {
+	id = 2398
+	name = "STATE_2398"
+	manpower = 191602
 
-state={
-	id=2398
-	name="STATE_2398"
+	state_category = town
 
-	provinces={
+	provinces = {
 		14464 16126 16723 
 	}
+
 	history = {
-		victory_points = { 16723 10 }
 		owner = SOV
-		add_core_of = SOV
-		add_core_of = RUS
+		
+		victory_points = { 16723 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = SOV
+		add_core_of = RUS
 		add_core_of = KUB
 	}
-	manpower=191602
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
 }

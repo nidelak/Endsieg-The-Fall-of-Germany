@@ -1,23 +1,25 @@
+state = {
+	id = 926
+	name = "STATE_926"
+	manpower = 177100
 
-state={
-	id=926
-	name="STATE_926"
-	provinces={
+	state_category = town
+
+	provinces = {
 		3160 4142 8546 14959 14991 19748 19787 
 	}
-	history={
+
+	history = {
 		owner = SPR
-		add_core_of = SPR
-		add_core_of = CSV
+		
+		victory_points = { 19748 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-        victory_points = {
-            19748 5 #Segovia
-        }
-    }
-	manpower=177100
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+		
+		add_core_of = SPR
+		add_core_of = CSV
+	}
+
 }

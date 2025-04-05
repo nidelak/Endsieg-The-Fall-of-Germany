@@ -1,18 +1,22 @@
-state={
-	id=1922
-	name="STATE_1922"
+state = {
+	id = 1922
+	name = "STATE_1922"
+	manpower = 45423
+
+	state_category = pastoral
+
+	provinces = {
+		7550 
+	}
+
 	history = {
 		owner = LEB
-		add_core_of = LEB
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = LEB
 	}
-	provinces={
-		7550 
-	}
-	manpower=45423
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

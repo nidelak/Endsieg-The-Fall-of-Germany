@@ -1,23 +1,28 @@
-state={
-	id=1441
-	name="STATE_1441"
-	provinces={
+state = {
+	id = 1441
+	name = "STATE_1441"
+	manpower = 11076
+
+	state_category = pastoral
+
+	provinces = {
 		19938 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
+		
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SLO
-		add_core_of = LEM
+		
 		1939.10.12 = {
 			owner = SLO
 		}
-  	}
-	manpower=11076
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
+
+		add_core_of = POL
+		add_core_of = SLO
+		add_core_of = LEM
+	}
+
 }

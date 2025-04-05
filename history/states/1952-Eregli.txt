@@ -1,20 +1,24 @@
-state={
-	id=1952
-	name="STATE_1952"
+state = {
+	id = 1952
+	name = "STATE_1952"
+	manpower = 42723
+
+	state_category = pastoral
+
+	provinces = {
+		662 2737 4873 7089 15404 15426 21584 
+	}
+
 	history = {
 		owner = TUR
-		add_core_of = TUR
+		
+		victory_points = { 2737 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = { 2737 2 }
 		
+		add_core_of = TUR
 	}
-	provinces={
-		662 2737 4873 7089 15404 15426 21584 
-	}
-	manpower=42723
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

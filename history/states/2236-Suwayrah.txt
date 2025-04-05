@@ -1,19 +1,22 @@
+state = {
+	id = 2236
+	name = "STATE_2236"
+	manpower = 176319
 
-state={
-	id=2236
-	name="STATE_2236"
+	state_category = town
+
+	provinces = {
+		5421 5571 18671 19110 19117 19121 
+	}
+
 	history = {
 		owner = IRQ
-		add_core_of = IRQ
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = IRQ
 	}
-	provinces={
-		5421 5571 18671 19110 19117 19121 
-	}
-	manpower=176319
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
 }

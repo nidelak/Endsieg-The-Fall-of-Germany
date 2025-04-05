@@ -1,23 +1,25 @@
+state = {
+	id = 1072
+	name = "STATE_1072"
+	manpower = 257950
 
-state={
-	id=1072
-	name="STATE_1072"
-	provinces={
+	state_category = city
+
+	provinces = {
 		6341 15402 15425 19735 19736 19742 19744 
 	}
-	history={
+
+	history = {
 		owner = POR
-		add_core_of = POR
+		
+		victory_points = { 6341 2 }
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-        victory_points = {
-            6341 2 #Beja
-        }
-    }
-	manpower=257950
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+		
+		add_core_of = POR
+	}
+
 }

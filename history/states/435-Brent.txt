@@ -1,13 +1,17 @@
+state = {
+	id = 435
+	name = "STATE_435"
+	manpower = 2058300
 
-state={
-	id=435
-	name="STATE_435"
-	
-	history={
+	state_category = metropolis
+
+	provinces = {
+		12008 12031 
+	}
+
+	history = {
 		owner = ENG
-		add_core_of = ENG
-		add_core_of = MER
-		add_core_of = LND
+		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -15,12 +19,10 @@ state={
 			radar_station = 1
 			anti_air_building = 1
 		}
+		
+		add_core_of = ENG
+		add_core_of = MER
+		add_core_of = LND
 	}
-	provinces={
-		12008 12031 
-	}
-	manpower=2058300
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.000
+
 }

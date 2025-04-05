@@ -1,22 +1,24 @@
+state = {
+	id = 601
+	name = "STATE_601"
+	manpower = 161408
 
-state={
-	id=601
-	name="STATE_601"
+	state_category = town
+
+	provinces = {
+		2431 13385 20401 20402 
+	}
+
 	history = {
 		owner = HUN
-		add_core_of = HUN
+		
+		victory_points = { 20402 2 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-            20402 2
-        }
+		
+		add_core_of = HUN
 	}
-	provinces={
-		2431 13385 20401 20402
-	}
-	manpower=161408
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = town
+
 }

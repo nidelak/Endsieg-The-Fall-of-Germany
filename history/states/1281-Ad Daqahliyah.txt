@@ -1,24 +1,24 @@
+state = {
+	id = 1281
+	name = "STATE_1281"
+	manpower = 1001905
 
-state={
-	id=1281
-	name="STATE_1281"
-					
+	state_category = metropolis
+
+	provinces = {
+		2779 3845 6488 9119 21185 21204 21205 
+	}
+
 	history = {
 		owner = EGY
-		add_core_of = EGY
+		
+		victory_points = { 2779 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-	    victory_points = {
-		    2779 10 #Al Mansurah
-			}
+		
+		add_core_of = EGY
 	}
-	
-	provinces={
-		2779 3845 6488 9119 21185 21204 21205 
-	}
-	manpower=1001905
-	state_category=metropolis
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

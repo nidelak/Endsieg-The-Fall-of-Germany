@@ -1,23 +1,22 @@
+state = {
+	id = 2938
+	name = "STATE_2938"
+	manpower = 13904
 
-state={
-	id=2938
-	name="STATE_2938"
+	state_category = enclave
 
-	history={
-		owner = ALB
-		add_core_of = ALB
-		buildings = {
-			infrastructure = 1
-
-		}
-
-	}
-
-	provinces={
+	provinces = {
 		14872 20233 
 	}
-	manpower=13904
-	buildings_max_level_factor=1.000
-	state_category=enclave
-	local_supplies=0.000
+
+	history = {
+		owner = ALB
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+		add_core_of = ALB
+	}
+
 }

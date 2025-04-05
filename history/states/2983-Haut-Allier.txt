@@ -1,23 +1,24 @@
-state={
-	id=2983
-	name="STATE_2983"
+state = {
+	id = 2983
+	name = "STATE_2983"
+	manpower = 40093
 
-	history={
+	state_category = pastoral
+
+	provinces = {
+		5415 14352 14395 
+	}
+
+	history = {
 		owner = FRA
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
 		add_core_of = FRA
 		add_core_of = AVG
 		add_core_of = OCC
-		buildings = {
-			infrastructure = 3
-
-		}
-
 	}
-	provinces={
-		5415 14352 14395 
-	}
-	manpower=40093
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

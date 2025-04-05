@@ -1,22 +1,26 @@
-state={
-	id=747
-	name="STATE_747"
-	provinces={
+state = {
+	id = 747
+	name = "STATE_747"
+	manpower = 463060
+
+	state_category = city
+
+	provinces = {
 		8147 
 	}
-	history={
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
-		add_core_of = LYO
+		
+		victory_points = { 8147 20 }
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-        victory_points = {
-            8147 20 #Lyon
-        }
-    }
-	manpower=463060
-	buildings_max_level_factor=1.000
-	state_category = city
+		
+		add_core_of = FRA
+		add_core_of = LYO
+	}
+
 }

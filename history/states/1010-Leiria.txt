@@ -1,20 +1,24 @@
-state={
-	id=1010
-	name="STATE_1010"
-	history={
+state = {
+	id = 1010
+	name = "STATE_1010"
+	manpower = 334100
+
+	state_category = city
+
+	provinces = {
+		4404 5445 6776 
+	}
+
+	history = {
 		owner = POR
-		add_core_of = POR
+		
+		victory_points = { 6776 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-        victory_points = {
-            6776 2 #Caldas da Rainha
-        }
+		
+		add_core_of = POR
 	}
-	provinces={
-		4404 5445 6776 
-	}
-	manpower=334100
-	buildings_max_level_factor=1.000
-	state_category = city
+
 }

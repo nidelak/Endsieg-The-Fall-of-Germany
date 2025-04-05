@@ -1,29 +1,29 @@
-state={
-	id=1851
-	name="STATE_1851"
-			
-				
+state = {
+	id = 1851
+	name = "STATE_1851"
+	manpower = 80000
+
+	state_category = pastoral
+
+	provinces = {
+		20913 
+	}
+
 	history = {
 		owner = TNG
-		add_core_of = TNG
-		add_core_of = RIF
-		add_core_of = MOR
+		
+		victory_points = { 20913 20 }
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
 			20913 = { naval_base = 4 }
 		}
-	
-	    victory_points = {
-		    20913 20 #Tangier
-			}
+		
+		add_core_of = TNG
+		add_core_of = RIF
+		add_core_of = MOR
 	}
-	
-	provinces={
-		20913 
-	}
-	manpower=80000
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

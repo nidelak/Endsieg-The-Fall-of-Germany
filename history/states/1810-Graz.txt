@@ -1,24 +1,27 @@
-state={
-	id=1810
-	name="STATE_1810"
-	provinces={
+state = {
+	id = 1810
+	name = "STATE_1810"
+	manpower = 322678
+
+	state_category = city
+
+	provinces = {
 		2759 3032 5308 9057 20832 
 	}
-	history={
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 3032 20 }
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 2
 		}
+		
+		add_core_of = GER
 		add_core_of = STR
-        victory_points = {
-            3032 20 #Graz
-        }
-    }
-	manpower=322678
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+	}
+
 }

@@ -1,20 +1,22 @@
+state = {
+	id = 1328
+	name = "STATE_1328"
+	manpower = 12297
 
-state={
-	id=1328
-	name="STATE_1328"
-	history={
+	state_category = wasteland
+
+	provinces = {
+		9671 
+	}
+
+	history = {
 		owner = ITA
-		add_core_of = LBA
+		
 		buildings = {
 			infrastructure = 0
 		}
+		
+		add_core_of = LBA
 	}
-	provinces={
-		9671 
-	}
-	manpower=12297
-	state_category=wasteland
-	impassable=yes
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

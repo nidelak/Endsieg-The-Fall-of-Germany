@@ -1,22 +1,25 @@
-state={
-	id=1676
-	name="STATE_1676"
-	provinces={
+state = {
+	id = 1676
+	name = "STATE_1676"
+	manpower = 450977
+
+	state_category = city
+
+	provinces = {
 		7035 8466 9193 12504 12562 
 	}
-	history={
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 7035 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = GER
 		add_core_of = SAX
-		victory_points = {
-			7035 5 #Zwickau
-		}
-    }
-	manpower=450977
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+	}
+
 }

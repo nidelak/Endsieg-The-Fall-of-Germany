@@ -1,24 +1,26 @@
+state = {
+	id = 2969
+	name = "STATE_2969"
+	manpower = 829000
 
-state={
-	id=2969
-	name="STATE_2969"
-	provinces={
-		12389
+	state_category = large_city
+
+	provinces = {
+		12389 
 	}
-	history={
+
+	history = {
 		owner = BEL
-		add_core_of = BEL
-		add_core_of = BRU
-		add_core_of = BRB
+		
+		victory_points = { 12389 40 }
+		
 		buildings = {
 			infrastructure = 4
 		}
-        victory_points = {
-            12389 40 #Bruxelles
-        }
-    }
-	manpower=829000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_city
+		
+		add_core_of = BEL
+		add_core_of = BRU
+		add_core_of = BRB
+	}
+
 }

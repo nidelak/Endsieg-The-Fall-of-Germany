@@ -1,19 +1,22 @@
+state = {
+	id = 1128
+	name = "STATE_1128"
+	manpower = 341033
 
-state={
-	id=1128
-	name="STATE_1128"	
+	state_category = city
+
+	provinces = {
+		6849 15522 15542 15558 20991 20992 
+	}
+
 	history = {
 		owner = FRA
-		add_core_of = ALG
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = ALG
 	}
-	provinces={
-		6849 15522 15542 15558 20991 20992 
-	}
-	manpower=341033
-	state_category=city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

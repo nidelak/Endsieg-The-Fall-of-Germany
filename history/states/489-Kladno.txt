@@ -1,23 +1,25 @@
+state = {
+	id = 489
+	name = "STATE_489"
+	manpower = 449600
 
-state={
-	id=489
-	name="STATE_489"
-	history={
+	state_category = city
+
+	provinces = {
+		1230 2211 7359 12681 12705 
+	}
+
+	history = {
 		owner = BAM
-		add_core_of = CZE
-		add_core_of = BOH
-        victory_points = {
-            12681 5 #Kladno
-        }
+		
+		victory_points = { 12681 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = CZE
+		add_core_of = BOH
 	}
-	provinces={
-		1230 2211 7359 12681 12705 
-	}
-	manpower=449600
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+
 }

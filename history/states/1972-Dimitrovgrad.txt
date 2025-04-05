@@ -1,20 +1,24 @@
-state={
-	id=1972
-	name="STATE_1972"
-	provinces={
+state = {
+	id = 1972
+	name = "STATE_1972"
+	manpower = 6278
+
+	state_category = enclave
+
+	provinces = {
 		14745 
 	}
+
 	history = {
 		owner = YUG
-		add_core_of = YUG
-		add_core_of = SER
-		add_claim_by = BUL
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = YUG
+		add_core_of = SER
+		add_claim_by = BUL
 	}
-	manpower=6278
-	state_category=enclave
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

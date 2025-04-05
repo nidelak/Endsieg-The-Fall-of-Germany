@@ -1,28 +1,31 @@
+state = {
+	id = 999
+	name = "STATE_999"
+	manpower = 509300
 
-state={
-	id=999
-	name="STATE_999"
-	provinces={
+	state_category = large_city
+
+	provinces = {
 		605 4874 5685 6630 6733 6988 7659 15179 15226 19749 19750 20512 20513 20514 
 	}
-	resources = { aluminium = 1.000 }
-	history={
+
+	resources = {
+		aluminium = 1
+	}
+
+	history = {
 		owner = SPR
-		add_core_of = SPR
-		add_core_of = CSM
+		
+		victory_points = { 19749 5 }
+		victory_points = { 19750 6 }
+		
 		buildings = {
 			arms_factory = 1
 			infrastructure = 3
 		}
-		victory_points = {
-			19750 6 #Toledo
-        	}
-		victory_points = {
-			19749 5 #Tavalera de la Reina
-		}
-    }
-	manpower=509300
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+		
+		add_core_of = SPR
+		add_core_of = CSM
+	}
+
 }

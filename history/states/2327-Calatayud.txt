@@ -1,25 +1,26 @@
-state={
-	id=2327
-	name="STATE_2327"
-	history={
+state = {
+	id = 2327
+	name = "STATE_2327"
+	manpower = 165990
+
+	state_category = town
+
+	provinces = {
+		1704 2399 2936 6369 14894 14948 14955 14983 19801 
+	}
+
+	history = {
 		owner = SPR
-		add_core_of = ARA
-		add_core_of = SPR
+		
+		victory_points = { 1704 2 }
+		victory_points = { 14894 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-        victory_points = {
-            1704 2 #Calatayud
-        }
-        victory_points = {
-            14894 2 #Tudela
-        }
+		
+		add_core_of = ARA
+		add_core_of = SPR
 	}
-	provinces={
-		1704 2399 2936 6369 14894 14948 14955 14983 19801 
-	}
-	manpower=165990
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
 }

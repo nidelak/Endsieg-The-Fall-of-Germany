@@ -1,25 +1,30 @@
-state={
-	id=2312
-	name="STATE_2312"
-	provinces={
+state = {
+	id = 2312
+	name = "STATE_2312"
+	manpower = 40480
+
+	state_category = pastoral
+
+	provinces = {
 		2183 9270 12920 12959 
 	}
-	history={
+
+	history = {
 		owner = POL
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+		1939.10.12 = {
+			owner = GEN
+		}
+
 		add_core_of = LEM
 		add_core_of = GAL
 		add_core_of = POL
 		add_core_of = MLP
-		buildings = {
-			infrastructure = 2
-		}
 		add_core_of = WUK
-		1939.10.12 = {
-			owner = GEN
-		}
-  	}
-	manpower=40480
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	}
+
 }

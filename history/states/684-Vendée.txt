@@ -1,26 +1,29 @@
+state = {
+	id = 684
+	name = "STATE_684"
+	manpower = 389200
 
-state={
-	id=684
-	name="STATE_684"
-	resources={
-		steel=30.000
-	}
-	provinces={
+	state_category = city
+
+	provinces = {
 		1780 2308 3366 4474 6065 7052 8072 9337 13993 13999 14038 19836 19837 
 	}
-	history={
+
+	resources = {
+		steel = 30
+	}
+
+	history = {
 		owner = FRA
-		add_core_of =FRA
-		add_core_of = POI
+		
+		victory_points = { 7052 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
-        victory_points = {
-            7052 5 #La Roche-sur-Yon
-        }
-    }
-	manpower=389200
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+		
+		add_core_of = FRA
+		add_core_of = POI
+	}
+
 }

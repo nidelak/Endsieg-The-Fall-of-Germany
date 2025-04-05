@@ -1,28 +1,31 @@
-state={
-	id=708
-	name="STATE_708"
-	resources={
-		aluminium=5.000
+state = {
+	id = 708
+	name = "STATE_708"
+	manpower = 161257
+
+	state_category = town
+
+	provinces = {
+		4029 9086 9587 14026 14088 
 	}
-	history={
+
+	resources = {
+		aluminium = 5
+	}
+
+	history = {
 		owner = SWI
-		add_core_of = SWI
-		add_core_of = TIC
-		add_core_of = LOM
+		
+		victory_points = { 4029 5 }
+		victory_points = { 9086 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-            4029 5 #Bellinzona
-        }
-		victory_points = {
-            9086 5 #Lugano
-        }
+		
+		add_core_of = SWI
+		add_core_of = TIC
+		add_core_of = LOM
 	}
-	provinces={
-		4029 9086 9587 14026 14088 
-	}
-	manpower=161257
-	state_category=town
-	buildings_max_level_factor=1.000
+
 }

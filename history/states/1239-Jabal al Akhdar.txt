@@ -1,25 +1,24 @@
+state = {
+	id = 1239
+	name = "STATE_1239"
+	manpower = 32505
 
-state={
-	id=1239
-	name="STATE_1239"
-					
-	history={
+	state_category = pastoral
+
+	provinces = {
+		737 9422 21086 21091 21102 21103 21105 
+	}
+
+	history = {
 		owner = ITA
-		add_core_of = LBA
+		
+		victory_points = { 21105 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-	
-	    victory_points = {
-		    21105 5 #Al Bayda
-			}
+		
+		add_core_of = LBA
 	}
-	
-	provinces={
-		737 9422 21086 21091 21102 21103 21105 
-	}
-	manpower=32505
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

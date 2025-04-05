@@ -1,24 +1,27 @@
-state={
-	id=2581
-	name="STATE_2581"
-	provinces={
+state = {
+	id = 2581
+	name = "STATE_2581"
+	manpower = 110719
+
+	state_category = rural
+
+	provinces = {
 		7583 12629 12654 
 	}
-	history={
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
+		victory_points = { 12654 2 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = HSN
 		add_core_of = HSK
-		victory_points = {
-			12654 2 #Gelnhausen
-		}
 	}
-	manpower=110719
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

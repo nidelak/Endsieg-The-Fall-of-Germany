@@ -1,22 +1,24 @@
+state = {
+	id = 2233
+	name = "STATE_2233"
+	manpower = 100141
 
-state={
-	id=2233
-	name="STATE_2233"
+	state_category = rural
+
+	provinces = {
+		964 18654 18670 18777 19131 19138 19145 
+	}
+
 	history = {
 		owner = IRQ
-		add_core_of = IRQ
+		
+		victory_points = { 19138 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-		    19138 10 #Amarah
-		}	
+		
+		add_core_of = IRQ
 	}
-	provinces={
-		964 18654 18670 18777 19131 19138 19145 
-	}
-	manpower=100141
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

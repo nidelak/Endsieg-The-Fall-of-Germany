@@ -1,24 +1,26 @@
+state = {
+	id = 812
+	name = "STATE_812"
+	manpower = 37710
 
-state={
-	id=812
-	name="STATE_812"
-	history={
+	state_category = pastoral
+
+	provinces = {
+		1225 6248 
+	}
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
-		add_core_of = OCC
-		add_core_of = GAS
-        victory_points = {
-            1225 2 #Mont-de-Marsan
-        }
+		
+		victory_points = { 1225 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-    }
-	provinces={
-		1225 6248 
+		
+		add_core_of = FRA
+		add_core_of = OCC
+		add_core_of = GAS
 	}
-	manpower=37710
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
+
 }

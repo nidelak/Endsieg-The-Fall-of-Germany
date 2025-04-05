@@ -1,24 +1,24 @@
+state = {
+	id = 1518
+	name = "STATE_1518"
+	manpower = 47791
 
-state={
-	id=1518
-	name="STATE_1518"
+	state_category = pastoral
 
-	history={
+	provinces = {
+		7645 
+	}
+
+	history = {
 		owner = ALB
-		add_core_of = ALB
+		
+		victory_points = { 7645 1 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			7645 1 #Kukësi
-		}
+		
+		add_core_of = ALB
 	}
 
-	provinces={
-		7645 
-	}
-	manpower=47791
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
 }

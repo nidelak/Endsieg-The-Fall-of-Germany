@@ -1,30 +1,26 @@
+state = {
+	id = 2909
+	name = "STATE_2909"
+	manpower = 42314
 
-state={
-	id=2909
-	name="STATE_2909"
+	state_category = small_island
 
-	history={
-		owner = GUE
-		add_core_of = GUE
-		add_core_of = NMD
-		buildings = {
-			19868 = {
-				naval_base = 1
-			}
-			20324 = {
-				naval_base = 1
-			}
-			infrastructure = 3
-
-		}
-
-	}
-
-	provinces={
+	provinces = {
 		19868 20324 
 	}
-	manpower=42314
-	buildings_max_level_factor=1.000
-	state_category=small_island
-	local_supplies=0.000
+
+	history = {
+		owner = GUE
+		
+		buildings = {
+			infrastructure = 3
+
+			19868 = { naval_base = 1 }
+			20324 = { naval_base = 1 }
+		}
+		
+		add_core_of = GUE
+		add_core_of = NMD
+	}
+
 }

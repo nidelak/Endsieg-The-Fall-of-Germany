@@ -1,23 +1,24 @@
-state={
-	id=1886
-	name="STATE_1886"
-					
+state = {
+	id = 1886
+	name = "STATE_1886"
+	manpower = 562191
+
+	state_category = large_city
+
+	provinces = {
+		21145 21147 21149 21150 21151 
+	}
+
 	history = {
 		owner = EGY
-		add_core_of = EGY
+		
+		victory_points = { 21150 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-	    victory_points = {
-		    21150 10 #Al Fayyum
-			}
+		
+		add_core_of = EGY
 	}
-	
-	provinces={
-		21145 21147 21149 21150 21151 
-	}
-	manpower=562191
-	state_category=large_city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

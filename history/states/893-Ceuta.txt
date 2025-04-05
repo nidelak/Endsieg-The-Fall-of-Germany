@@ -1,27 +1,27 @@
+state = {
+	id = 893
+	name = "STATE_893"
+	manpower = 55000
 
-state={
-	id=893
-	name="STATE_893"
-			
-	history={
-		owner = SPR
-		add_core_of = ADU
-		add_core_of = SPR
-		buildings = {
-			infrastructure = 3
-			19768 = { naval_base = 1 }
-		}
-	
-	    victory_points = {
-		    19768 5 #Ceuta
-			}
-	}
-	
-	provinces={
+	state_category = pastoral
+
+	provinces = {
 		19768 
 	}
-	manpower=55000
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	history = {
+		owner = SPR
+		
+		victory_points = { 19768 5 }
+		
+		buildings = {
+			infrastructure = 3
+
+			19768 = { naval_base = 1 }
+		}
+		
+		add_core_of = ADU
+		add_core_of = SPR
+	}
+
 }

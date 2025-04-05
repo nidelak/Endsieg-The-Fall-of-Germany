@@ -1,26 +1,29 @@
+state = {
+	id = 287
+	name = "STATE_287"
+	manpower = 247700
 
-state={
-	id=287
-	name="STATE_287"
-	provinces={
+	state_category = large_town
+
+	provinces = {
 		2958 4274 5984 7733 11243 11314 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		add_core_of = WPR
-		victory_points = {
-			2958 2 #Brodnica
-		}
+		
+		victory_points = { 2958 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
 		1939.10.12 = {
 			owner = GER
 		}
-  	}
-	manpower=247700
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
+		add_core_of = POL
+		add_core_of = WPR
+	}
+
 }

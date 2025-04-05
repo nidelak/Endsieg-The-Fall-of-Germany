@@ -1,19 +1,22 @@
+state = {
+	id = 2023
+	name = "STATE_2023"
+	manpower = 22360
 
-state={
-	id=2023
-	name="STATE_2023"
+	state_category = pastoral
+
+	provinces = {
+		1912 15862 
+	}
+
 	history = {
 		owner = HUN
-		add_core_of = HUN
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = HUN
 	}
-	provinces={
-		1912 15862 
-	}
-	manpower=22360
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

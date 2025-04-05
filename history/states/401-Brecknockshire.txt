@@ -1,18 +1,23 @@
-state={
-	id=401
-	name="STATE_401"
-	history={
+state = {
+	id = 401
+	name = "STATE_401"
+	manpower = 53100
+
+	state_category = pastoral
+
+	provinces = {
+		5253 5780 
+	}
+
+	history = {
 		owner = ENG
-		add_core_of = ENG
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = ENG
 		add_core_of = WLS
 	}
-	provinces={
-		5253 5780 
-	}
-	manpower=53100
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+
 }

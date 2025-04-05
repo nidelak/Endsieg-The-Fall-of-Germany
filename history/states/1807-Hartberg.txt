@@ -1,19 +1,23 @@
-state={
-	id=1807
-	name="STATE_1807"
-	history={
+state = {
+	id = 1807
+	name = "STATE_1807"
+	manpower = 127402
+
+	state_category = rural
+
+	provinces = {
+		8683 13713 13738 20834 
+	}
+
+	history = {
 		owner = GER
-		add_core_of = GER
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
+		add_core_of = GER
 		add_core_of = STR
 	}
-	provinces={
-		8683 13713 13738 20834 
-	}
-	manpower=127402
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = rural
+
 }

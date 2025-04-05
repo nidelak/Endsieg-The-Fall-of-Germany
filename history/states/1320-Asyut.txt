@@ -1,24 +1,24 @@
+state = {
+	id = 1320
+	name = "STATE_1320"
+	manpower = 688136
 
-state={
-	id=1320
-	name="STATE_1320"
-				
+	state_category = large_city
+
+	provinces = {
+		2591 15856 21125 21126 21127 21128 21129 
+	}
+
 	history = {
 		owner = EGY
-		add_core_of = EGY
+		
+		victory_points = { 21128 10 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-	    victory_points = {
-		    21128 10 #Asyut
-			}
+		
+		add_core_of = EGY
 	}
-	
-	provinces={
-		2591 15856 21125 21126 21127 21128 21129 
-	}
-	manpower=688136
-	state_category=large_city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

@@ -1,27 +1,26 @@
-state={
-	id=2916
-	name="STATE_2916"
+state = {
+	id = 2916
+	name = "STATE_2916"
+	manpower = 432
 
-	history={
-		owner = YUG
-		add_core_of = YUG
-		add_core_of = CRO
-		buildings = {
-			infrastructure = 1
-			20141 = {
-				naval_base = 1
+	state_category = tiny_island
 
-			}
-
-		}
-		add_core_of = DLM
-
-	}
-	provinces={
+	provinces = {
 		20141 
 	}
-	manpower=432
-	state_category=tiny_island
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	history = {
+		owner = YUG
+		
+		buildings = {
+			infrastructure = 1
+
+			20141 = { naval_base = 1 }
+		}
+		
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = DLM
+	}
+
 }

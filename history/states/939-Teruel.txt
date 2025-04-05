@@ -1,26 +1,25 @@
+state = {
+	id = 939
+	name = "STATE_939"
+	manpower = 253100
 
-state={
-	id=939
-	name="STATE_939"
+	state_category = city
 
-	history={
+	provinces = {
+		220 1717 2733 4721 8279 15011 15024 15132 20507 
+	}
+
+	history = {
 		owner = SPR
-		add_core_of = ARA
-		add_core_of = SPR
+		
+		victory_points = { 4721 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			4721 2 #Teruel
-		}
-
+		
+		add_core_of = ARA
+		add_core_of = SPR
 	}
 
-	provinces={
-		220 1717 2733 4721 8279 15011 15024 15132 20507 
-	}
-	manpower=253100
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
 }

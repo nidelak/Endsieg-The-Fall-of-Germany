@@ -1,23 +1,25 @@
+state = {
+	id = 548
+	name = "STATE_548"
+	manpower = 303800
 
-state={
-	id=548
-	name="STATE_548"
-	provinces={
+	state_category = city
+
+	provinces = {
 		704 7471 8954 9175 13046 13067 13113 13167 13181 20502 
 	}
-	history={
+
+	history = {
 		owner = FRA
-		add_core_of = FRA
+		
+		victory_points = { 8954 5 }
+		
 		buildings = {
 			infrastructure = 4
 		}
+		
+		add_core_of = FRA
 		add_core_of = NMD
-        victory_points = {
-            8954 5 #Évreux
-        }
-    }
-	manpower=303800
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	}
+
 }

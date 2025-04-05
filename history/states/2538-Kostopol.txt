@@ -1,28 +1,31 @@
+state = {
+	id = 2538
+	name = "STATE_2538"
+	manpower = 144340
 
-state={
-	id=2538
-	name="STATE_2538"
-	provinces={
+	state_category = town
+
+	provinces = {
 		684 1161 2456 5894 6615 7371 7482 8026 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		victory_points = {
-			6615 2 #Kostopol
-		}
-		add_core_of = UKR
-		add_core_of = VLH
-		add_core_of = PLS
+		
+		victory_points = { 6615 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
 		1939.10.12 = {
 			owner = SOV
 		}
-  	}
-	manpower=144340
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+		add_core_of = POL
+		add_core_of = UKR
+		add_core_of = VLH
+		add_core_of = PLS
+	}
+
 }

@@ -1,29 +1,30 @@
+state = {
+	id = 467
+	name = "STATE_467"
+	manpower = 353400
 
-state={
-	id=467
-	name="STATE_467"
-	provinces={
+	state_category = city
+
+	provinces = {
 		6498 8570 12323 12395 12558 12568 12622 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		add_core_of = MLP
+		
+		victory_points = { 12568 5 }
+		victory_points = { 12622 20 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-        victory_points = {
-            12622 20 #Sosnowiec
-        }
-		victory_points = {
-			12568 5 #Myszków
-		}
+		
 		1939.10.12 = {
 			owner = GER
 		}
-  	}
-	manpower=353400
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+
+		add_core_of = POL
+		add_core_of = MLP
+	}
+
 }

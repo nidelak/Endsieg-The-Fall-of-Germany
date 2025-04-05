@@ -1,22 +1,24 @@
+state = {
+	id = 947
+	name = "STATE_947"
+	manpower = 448550
 
-state={
-	id=947
-	name="STATE_947"
-	provinces={
+	state_category = city
+
+	provinces = {
 		1660 5291 5941 7853 
 	}
-	history={
+
+	history = {
 		owner = POR
-		add_core_of = POR
+		
+		victory_points = { 5291 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-        victory_points = {
-            5291 2 #Viseu
-        }
-    }
-	manpower=448550
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+		
+		add_core_of = POR
+	}
+
 }

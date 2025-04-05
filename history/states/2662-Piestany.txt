@@ -1,19 +1,23 @@
-state={
-	id=2662
-	name="STATE_2662"
-	provinces={
+state = {
+	id = 2662
+	name = "STATE_2662"
+	manpower = 103728
+
+	state_category = rural
+
+	provinces = {
 		926 8476 8859 13192 13201 13247 
 	}
-	history={
+
+	history = {
 		owner = SLO
-		add_core_of = CZE
-		add_core_of = SLO
+		
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = CZE
+		add_core_of = SLO
 	}
-	manpower=103728
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

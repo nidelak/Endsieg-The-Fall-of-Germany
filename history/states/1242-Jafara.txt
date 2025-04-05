@@ -1,23 +1,24 @@
-state={
-	id=1242
-	name="STATE_1242"
-					
-	history={
+state = {
+	id = 1242
+	name = "STATE_1242"
+	manpower = 72512
+
+	state_category = pastoral
+
+	provinces = {
+		2653 15722 
+	}
+
+	history = {
 		owner = ITA
-		add_core_of = LBA
+		
+		victory_points = { 2653 5 }
+		
 		buildings = {
 			infrastructure = 2
 		}
-	
-	    victory_points = {
-		    2653 5 #Sabrata
-			}
+		
+		add_core_of = LBA
 	}
-	
-	provinces={
-		2653 15722 
-	}
-	manpower=72512
-	state_category=pastoral
-	buildings_max_level_factor=1.000
+
 }

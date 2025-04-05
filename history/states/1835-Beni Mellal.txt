@@ -1,28 +1,25 @@
-state={
-	id=1835
-	name="STATE_1835"
-			
-				
+state = {
+	id = 1835
+	name = "STATE_1835"
+	manpower = 232180
+
+	state_category = large_town
+
+	provinces = {
+		340 681 1713 2114 15736 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 681 2 }
+		victory_points = { 15736 5 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	    victory_points = {
-		    15736 5 #Beni Mellal
-			}
-			
-		victory_points = {
-		    681 2 #Al Fqih Ben Calah
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		340 681 1713 2114 15736 
-	}
-	manpower=232180
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

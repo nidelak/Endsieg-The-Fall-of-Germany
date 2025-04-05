@@ -1,25 +1,24 @@
-state={
-	id=1843
-	name="STATE_1843"
-			
-				
+state = {
+	id = 1843
+	name = "STATE_1843"
+	manpower = 34060
+
+	state_category = pastoral
+
+	provinces = {
+		633 3121 
+	}
+
 	history = {
 		owner = MOR
-		add_core_of = MOR
+		
+		victory_points = { 633 2 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	
-	    victory_points = {
-		    633 2 #Ifrane
-			}
+		
+		add_core_of = MOR
 	}
-	
-	provinces={
-		633 3121 
-	}
-	manpower=34060
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

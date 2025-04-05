@@ -1,33 +1,33 @@
+state = {
+	id = 77
+	name = "STATE_77"
+	manpower = 238980
 
-state={
-	id=77
-	name="STATE_77"
+	state_category = large_town
 
-	history={
+	provinces = {
+		2642 3402 5130 5638 7151 9877 9942 16211 16419 17101 17353 18517 19045 19047 19664 
+	}
+
+	history = {
 		owner = FIN
-		add_core_of = FIN
+		
+		victory_points = { 19664 5 }
+		
 		buildings = {
 			infrastructure = 2
-			19664 = {
-				naval_base = 2
-			}
 			industrial_complex = 1
 			arms_factory = 1
+
+			19664 = { naval_base = 2 }
 		}
-		add_core_of = KAR
-		victory_points = {
-			19664 5 
-		}
+		
 		1940.3.12 = {
 			owner = SOV
 		}
+
+		add_core_of = FIN
+		add_core_of = KAR
 	}
 
-	provinces={
-		2642 3402 5130 5638 7151 9877 9942 16211 16419 17101 17353 18517 19045 19047 19664 
-	}
-	manpower=238980
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
 }

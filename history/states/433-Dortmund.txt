@@ -1,27 +1,27 @@
+state = {
+	id = 433
+	name = "STATE_433"
+	manpower = 1106045
 
-state={
-	id=433
-	name="STATE_433"
+	state_category = metropolis
 
-	history={
-		add_core_of = GER
+	provinces = {
+		7843 20711 
+	}
+
+	history = {
+		owner = GER
+		
+		victory_points = { 7843 40 }
+		
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 		}
+		
+		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = WST
-		owner = GER
-		victory_points = {
-			7843 40 #Dortmund
-		}
 	}
 
-	provinces={
-		7843 20711 
-	}
-	manpower=1106045
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.000
 }

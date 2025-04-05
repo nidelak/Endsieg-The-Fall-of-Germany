@@ -1,24 +1,24 @@
+state = {
+	id = 1165
+	name = "STATE_1165"
+	manpower = 123134
 
-state={
-	id=1165
-	name="STATE_1165"
-			
+	state_category = rural
+
+	provinces = {
+		2974 9317 15603 15617 15618 21028 
+	}
+
 	history = {
 		owner = TUN
-		add_core_of = TUN
+		
+		victory_points = { 21028 2 }
+		
 		buildings = {
 			infrastructure = 1
 		}
-	    victory_points = {
-		    21028 2 #Kasserine
-			}
+		
+		add_core_of = TUN
 	}
-	
-	provinces={
-		2974 9317 15603 15617 15618 21028 
-	}
-	manpower=123134
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

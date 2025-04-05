@@ -1,27 +1,25 @@
+state = {
+	id = 704
+	name = "STATE_704"
+	manpower = 156840
 
-state={
-	id=704
-	name="STATE_704"
+	state_category = town
 
-	history={
-		owner = ITA
-		add_core_of = ITA
-		add_core_of = VNT
-		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = {
-			14079 2 
-		}
-
-	}
-
-	provinces={
+	provinces = {
 		5487 14079 14144 20053 
 	}
-	manpower=156840
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	history = {
+		owner = ITA
+		
+		victory_points = { 14079 2 }
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+		add_core_of = ITA
+		add_core_of = VNT
+	}
+
 }

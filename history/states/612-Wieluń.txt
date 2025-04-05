@@ -1,26 +1,29 @@
+state = {
+	id = 612
+	name = "STATE_612"
+	manpower = 214300
 
-state={
-	id=612
-	name="STATE_612"
-	provinces={
+	state_category = large_town
+
+	provinces = {
 		1446 4844 7061 12160 12247 12340 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		add_core_of = WKP
-		victory_points = {
-			12160 2 #Wieluń
-		}
+		
+		victory_points = { 12160 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
 		1939.10.12 = {
 			owner = GER
 		}
-  	}
-	manpower=214300
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = large_town
+
+		add_core_of = POL
+		add_core_of = WKP
+	}
+
 }

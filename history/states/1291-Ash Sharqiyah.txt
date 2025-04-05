@@ -1,24 +1,24 @@
+state = {
+	id = 1291
+	name = "STATE_1291"
+	manpower = 1110255
 
-state={
-	id=1291
-	name="STATE_1291"
-					
+	state_category = metropolis
+
+	provinces = {
+		3159 7613 8348 15783 15790 21164 21200 21201 
+	}
+
 	history = {
 		owner = EGY
-		add_core_of = EGY
+		
+		victory_points = { 15783 10 }
+		
 		buildings = {
 			infrastructure = 3
 		}
-	    victory_points = {
-		    15783 10 #Zagazig
-			}
+		
+		add_core_of = EGY
 	}
-	
-	provinces={
-		3159 7613 8348 15783 15790 21164 21200 21201 
-	}
-	manpower=1110255
-	state_category=metropolis
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }

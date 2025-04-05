@@ -1,26 +1,27 @@
-state={
-	id=2933
-	name="STATE_2933"
-	provinces={
+state = {
+	id = 2933
+	name = "STATE_2933"
+	manpower = 71336
+
+	state_category = rural
+
+	provinces = {
 		8544 
 	}
-	history={
+
+	history = {
 		owner = YUG
+		
+		victory_points = { 8544 10 }
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
 		add_core_of = YUG
 		add_core_of = VJV
 		add_core_of = SER
-		buildings = {
-			infrastructure = 3
-
-		}
 		add_core_of = BNT
-		victory_points = {
-			8544 10 
-		}
-
 	}
-	manpower=71336
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 }
