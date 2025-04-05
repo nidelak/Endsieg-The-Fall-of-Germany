@@ -1,7 +1,7 @@
 GET_MOD_DIRECTORY_PATH (
 	OUT STRING filePath
 )
-ADD filePath "common\on_actions\_h4mb_setup_states_vars.txt"
+ADD filePath "common\on_actions\00_h4mb_setup_states_vars.txt"
 
 FILE file filePath
 
