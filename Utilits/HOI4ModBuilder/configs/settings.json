@@ -1,0 +1,60 @@
+{
+  "language": "ru",
+  "gameDirectory": "E:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\",
+  "gameTempDirectory": "C:\\Users\\kaledin\\Documents\\Paradox Interactive\\Hearts of Iron IV\\",
+  "unchangableModDirectories": [],
+  "changableModDirectories": [],
+  "modDirectory": "C:\\Users\\kaledin\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\Endsieg-The-Fall-of-Germany\\",
+  "useModSettings": false,
+  "actionHistorySize": 20,
+  "textureOpacity": 180,
+  "MAP_VIEWPORT_HEIGHT": 1004.0,
+  "maxAdditionalTextureSize": 2048,
+  "searchWarningsSettings": {
+    "enabled": [],
+    "known": [
+      "PROVINCE_WRONG_COLOR",
+      "PROVINCE_X_CROSS",
+      "PROVINCE_DIVIDED",
+      "PROVINCE_HAS_MORE_THAN_8_BORDERS",
+      "PROVINCE_CONTINENT_ID_NOT_EXISTS",
+      "PROVINCE_WITH_NO_TERRAIN",
+      "PROVINCE_BORDERS_MISMATCH",
+      "PROVINCE_MULTI_VICTORY_POINTS",
+      "STATE_VICTORY_POINT_FOR_FOREIGN_PROVINCE",
+      "HEIGHTMAP_MISMATCH",
+      "RAILWAY_PROVINCES_CONNECTION",
+      "RAILWAY_OVERLAP_CONNECTION",
+      "SUPPLY_HUB_NO_CONNECTION",
+      "FRONTLINE_POSSIBLE_ERROR"
+    ]
+  },
+  "searchErrorsSettings": {
+    "enabled": [],
+    "known": [
+      "PROVINCE_COASTAL_MISMATCH",
+      "PROVINCE_LAND_WITH_NO_STATE",
+      "PROVINCE_SEA_WITH_STATE",
+      "PROVINCE_WITH_NO_REGION",
+      "PROVINCE_MULTI_STATES",
+      "PROVINCE_MULTI_REGIONS",
+      "STATE_MULTI_REGIONS",
+      "REGION_USES_NOT_NAVAL_TERRAIN",
+      "RIVER_CROSSING",
+      "RIVER_NO_START_POINT",
+      "RIVER_START_POINT_ERROR",
+      "RIVER_FLOW_IN_OR_OUT_ERROR",
+      "RIVER_MULTI_START_POINTS",
+      "SEA_CROSS_HAS_NO_RULE_NOR_SEA_PROVINCE"
+    ]
+  },
+  "defaultModSettings": {
+    "exportRiversMapWithWaterPixels": true,
+    "generateNormalMap": false,
+    "normalMapStrengthV2": 25.0,
+    "normalMapBlur": 0.8,
+    "wipsEnabled": [],
+    "MAP_SCALE_PIXEL_TO_KM": 7.114,
+    "WATER_HEIGHT": 9.5
+  }
+}
