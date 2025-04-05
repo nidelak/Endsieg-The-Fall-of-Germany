@@ -1,32 +1,31 @@
+state = {
+	id = 370
+	name = "STATE_370"
+	manpower = 440800
 
-state={
-	id=370
-	name="STATE_370"
+	state_category = city
 
-	history={
+	provinces = {
+		775 895 1831 2334 4856 7055 8086 11824 11881 11900 11936 11958 11987 12027 19725 19947 
+	}
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		ADD_core_of = MZV
+		
+		victory_points = { 775 5 }
+		victory_points = { 895 5 }
+		victory_points = { 11900 2 }
+		
 		buildings = {
 			infrastructure = 3
-
 		}
-		victory_points = {
-			775 5 
-		}
-		victory_points = {
-			11900 2 
-		}
+		
 		1939.10.12 = {
 			owner = GEN
 		}
+
+		add_core_of = POL
+		add_core_of = MZV
 	}
 
-	provinces={
-		775 895 1831 2334 4856 7055 8086 11824 11881 11900 11936 11958 11987 12027 19725 19947 
-	}
-	manpower=440800
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
 }

@@ -1,26 +1,29 @@
+state = {
+	id = 407
+	name = "STATE_407"
+	manpower = 179700
 
-state={
-	id=407
-	name="STATE_407"
-	provinces={
+	state_category = town
+
+	provinces = {
 		3034 4365 7533 11767 11845 11855 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		ADD_core_of = MZV
-		victory_points = {
-			11767 2 #Sochaczew
-		}
+		
+		victory_points = { 11767 2 }
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
 		1939.10.12 = {
 			owner = GEN
 		}
-  	}
-	manpower=179700
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = town
+
+		add_core_of = POL
+		add_core_of = MZV
+	}
+
 }

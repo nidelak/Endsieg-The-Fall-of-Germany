@@ -1,23 +1,27 @@
+state = {
+	id = 651
+	name = "STATE_651"
+	manpower = 272900
 
-state={
-	id=651
-	name="STATE_651"
-	provinces={
+	state_category = city
+
+	provinces = {
 		2535 4078 4336 6490 7104 8537 9418 11421 
 	}
-	history={
+
+	history = {
 		owner = POL
-		add_core_of = POL
-		ADD_core_of = MZV
+		
 		buildings = {
 			infrastructure = 3
 		}
+		
 		1939.10.12 = {
 			owner = GER
 		}
-  	}
-	manpower=272900
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = city
+
+		add_core_of = POL
+		add_core_of = MZV
+	}
+
 }
