@@ -1,7 +1,7 @@
 Keyword: 
 	IF
 Command Path:
-	commands.declarators.BRANCH
+	commands.declarators.branches.IF
 Documentation:
 	IF <BOOLEAN:value>
 		<INNER_CODE>
@@ -28,6 +28,9 @@ Command Path:
 Documentation:
 	FOR <iterator_name> IN <ILIST:values>
 		<INNER_CODE>
+	======== OR ========
+	FOR <iterator_name> IN RANGE [optional]<INUMBER:start> <INUMBER:end> [optional]<INUMBER:step>
+		<INNER_CODE>
 
 
 
@@ -36,7 +39,7 @@ Keyword:
 Command Path:
 	commands.declarators.vars.BOOLEAN
 Implements:
-	ISCRIPTOBJECT IPRIMITIVE ISET 
+	ISCRIPTOBJECT IRELATIVE IPRIMITIVE ISET 
 Documentation:
 	BOOLEAN <BOOLEAN:var_name> [OPTIONAL]<BOOLEAN:other_value>
 	======== OR ========
@@ -116,7 +119,7 @@ Keyword:
 Command Path:
 	commands.declarators.vars.LIST
 Implements:
-	ISCRIPTOBJECT ICOLLECTION ILIST IADD IADDRANGE ICLEAR IGET IGETSIZE IINSERT IREMOVEAT IREMOVE ISET ISETSIZE 
+	ISCRIPTOBJECT ICOLLECTION ILIST IADD IADDRANGE ICLEAR IGET IGETSIZE IINSERT IREMOVEAT IREMOVE IREVERSE ISET ISETSIZE ISHUFFLE ISORT ISWAP 
 Documentation:
 	LIST <LIST:var_name> <VALUE_TYPE> [OPTIONAL]<LIST<VALUE_TYPE>:other_value>
 	======== OR ========
@@ -223,10 +226,24 @@ Keyword:
 Command Path:
 	commands.declarators.functions.map.provinces.GET_ALL_PROVINCES_IDS
 Documentation:
-	GET_ALL_PROVINCES_IDS <LIST<INUMBER>:provinces_ids>
+	GET_ALL_PROVINCES_IDS <ILIST<INUMBER>:provinces_ids>
 	======== OR ========
 	GET_ALL_PROVINCES_IDS (
-		OUT <LIST<INUMBER>:provinces_ids>
+		OUT <ILIST<INUMBER>:provinces_ids>
+	)
+
+
+
+Keyword: 
+	GET_PROVINCE_ADJACENT_PROVINCES_IDS
+Command Path:
+	commands.declarators.functions.map.provinces.GET_PROVINCE_ADJACENT_PROVINCES_IDS
+Documentation:
+	GET_PROVINCE_ADJACENT_PROVINCES_IDS <ILIST<INUMBER>:adjacent_provinces_ids> <INUMBER:province_id>
+	======== OR ========
+	GET_PROVINCE_ADJACENT_PROVINCES_IDS (
+		OUT <ILIST<INUMBER>:adjacent_provinces_ids>
+		<INUMBER:province_id>
 	)
 
 
@@ -255,6 +272,34 @@ Documentation:
 	======== OR ========
 	GET_PROVINCE_PIXELS_COUNT (
 		OUT <INUMBER:pixels_count>
+		<INUMBER:province_id>
+	)
+
+
+
+Keyword: 
+	GET_PROVINCE_REGION_ID
+Command Path:
+	commands.declarators.functions.map.states.GET_PROVINCE_REGION_ID
+Documentation:
+	GET_PROVINCE_REGION_ID <INUMBER:region_d> <INUMBER:province_id>
+	======== OR ========
+	GET_PROVINCE_REGION_ID (
+		OUT <INUMBER:region_d>
+		<INUMBER:province_id>
+	)
+
+
+
+Keyword: 
+	GET_PROVINCE_STATE_ID
+Command Path:
+	commands.declarators.functions.map.states.GET_PROVINCE_STATE_ID
+Documentation:
+	GET_PROVINCE_STATE_ID <INUMBER:state_id> <INUMBER:province_id>
+	======== OR ========
+	GET_PROVINCE_STATE_ID (
+		OUT <INUMBER:state_id>
 		<INUMBER:province_id>
 	)
 
@@ -501,6 +546,20 @@ Documentation:
 
 
 Keyword: 
+	GET_REGION_ADJACENT_PROVINCES_IDS
+Command Path:
+	commands.declarators.functions.map.regions.GET_REGION_ADJACENT_PROVINCES_IDS
+Documentation:
+	GET_REGION_ADJACENT_PROVINCES_IDS <ILIST<INUMBER>:adjacent_provinces_ids> <INUMBER:region_id>
+	======== OR ========
+	GET_REGION_ADJACENT_PROVINCES_IDS (
+		OUT <ILIST<INUMBER>:adjacent_provinces_ids>
+		<INUMBER:region_id>
+	)
+
+
+
+Keyword: 
 	GET_REGION_CENTER
 Command Path:
 	commands.declarators.functions.map.regions.GET_REGION_CENTER
@@ -543,6 +602,34 @@ Documentation:
 
 
 Keyword: 
+	GET_STATE_ADJACENT_PROVINCES_IDS
+Command Path:
+	commands.declarators.functions.map.states.GET_STATE_ADJACENT_PROVINCES_IDS
+Documentation:
+	GET_STATE_ADJACENT_PROVINCES_IDS <ILIST<INUMBER>:adjacent_provinces_ids> <INUMBER:state_id>
+	======== OR ========
+	GET_STATE_ADJACENT_PROVINCES_IDS (
+		OUT <ILIST<INUMBER>:adjacent_provinces_ids>
+		<INUMBER:state_id>
+	)
+
+
+
+Keyword: 
+	GET_STATE_ADJACENT_STATES_IDS
+Command Path:
+	commands.declarators.functions.map.states.GET_STATE_ADJACENT_STATES_IDS
+Documentation:
+	GET_STATE_ADJACENT_STATES_IDS <ILIST<INUMBER>:adjacent_states_ids> <INUMBER:state_id>
+	======== OR ========
+	GET_STATE_ADJACENT_STATES_IDS (
+		OUT <ILIST<INUMBER>:adjacent_states_ids>
+		<INUMBER:state_id>
+	)
+
+
+
+Keyword: 
 	GET_STATE_BUILDING_LEVEL
 Command Path:
 	commands.declarators.functions.map.states.GET_STATE_BUILDING_LEVEL
@@ -558,6 +645,20 @@ Documentation:
 
 
 Keyword: 
+	GET_STATE_CATEGORY
+Command Path:
+	commands.declarators.functions.map.states.GET_STATE_CATEGORY
+Documentation:
+	GET_STATE_CATEGORY <ISTRING:state_category> <INUMBER:state_id>
+	======== OR ========
+	GET_STATE_CATEGORY (
+		OUT <ISTRING:state_category>
+		<INUMBER:state_id>
+	)
+
+
+
+Keyword: 
 	GET_STATE_CENTER
 Command Path:
 	commands.declarators.functions.map.states.GET_STATE_CENTER
@@ -567,6 +668,34 @@ Documentation:
 	GET_STATE_CENTER (
 		OUT <INUMBER:x>
 		OUT <INUMBER:y>
+		<INUMBER:state_id>
+	)
+
+
+
+Keyword: 
+	GET_STATE_CONTROLLER
+Command Path:
+	commands.declarators.functions.map.states.GET_STATE_CONTROLLER
+Documentation:
+	GET_STATE_CONTROLLER <ISTRING:country_tag> <INUMBER:state_id>
+	======== OR ========
+	GET_STATE_CONTROLLER (
+		OUT <ISTRING:country_tag>
+		<INUMBER:state_id>
+	)
+
+
+
+Keyword: 
+	GET_STATE_OWNER
+Command Path:
+	commands.declarators.functions.map.states.GET_STATE_OWNER
+Documentation:
+	GET_STATE_OWNER <ISTRING:country_tag> <INUMBER:state_id>
+	======== OR ========
+	GET_STATE_OWNER (
+		OUT <ISTRING:country_tag>
 		<INUMBER:state_id>
 	)
 
@@ -836,12 +965,12 @@ Keyword:
 Command Path:
 	commands.declarators.methods.GET
 Documentation:
-	GET <VALUE_TYPE:to> <KEY_TYPE:key|index> <IGET<KEY_TYPE,VALUE_TYPE>:from>
+	GET <VALUE_TYPE:to> <IGET<KEY_TYPE,VALUE_TYPE>:from> <KEY_TYPE:key|index>
 	======== OR ========
 	GET (
 		OUT <VALUE_TYPE:to>
-		<KEY_TYPE:key|index>
 		<IGET<KEY_TYPE,VALUE_TYPE>:from>
+		<KEY_TYPE:key|index>
 	)
 
 
@@ -1008,6 +1137,15 @@ Documentation:
 
 
 Keyword: 
+	REVERSE
+Command Path:
+	commands.declarators.methods.REVERSE
+Documentation:
+	REVERSE <IREVERSE:var_name>
+
+
+
+Keyword: 
 	ROUND
 Command Path:
 	commands.declarators.methods.ROUND
@@ -1040,6 +1178,24 @@ Documentation:
 
 
 Keyword: 
+	SHUFFLE
+Command Path:
+	commands.declarators.methods.SHUFFLE
+Documentation:
+	SHUFFLE <ISHUFFLE:target> [optional]<INUMBER:seed>
+
+
+
+Keyword: 
+	SORT
+Command Path:
+	commands.declarators.methods.SORT
+Documentation:
+	SORT <ISORT:var_name>
+
+
+
+Keyword: 
 	SPLIT
 Command Path:
 	commands.declarators.methods.SPLIT
@@ -1051,6 +1207,15 @@ Documentation:
 		<ISPLIT:source>
 		<CHAR:regex>
 	)
+
+
+
+Keyword: 
+	SWAP
+Command Path:
+	commands.declarators.methods.SWAP
+Documentation:
+	SWAP <ISWAP:target> <INUMBER:first> <INUMBER:second>
 
 
 

@@ -1,0 +1,32 @@
+{
+	"land": [
+		"anti_air",
+		"anti_tank",
+		"armor",
+		"artillery",
+		"infantry",
+		"motorized",
+		"mechanized",
+		"rocket",
+		"support"
+	],
+	"naval": [
+		"capital_ship",
+		"carrier",
+		"convoy",
+		"naval_transport",
+		"screen_ship",
+		"submarine"
+	],
+	"air": [
+		"air_transport",
+		"cas",
+		"fighter",
+		"interceptor",
+		"tactical_bomber",
+		"missile",
+		"naval_bomber",
+		"strategic_bomber",
+		"suicide"
+	]
+}

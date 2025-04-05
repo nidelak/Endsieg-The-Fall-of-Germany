@@ -49,10 +49,12 @@ FOR state_id IN states_ids
 		)
 		
 		INT province_pixels_count 0
-		# If province is "plains" then grain can be harvested from it
+		# If province is "plains" or "village" then grain can be harvested from it
 		IF terrain_name == "plains"
+			GET_PROVINCE_PIXELS_COUNT province_pixels_count province_id		
+		IF terrain_name == "village"
 			GET_PROVINCE_PIXELS_COUNT province_pixels_count province_id
-		
+			
 		ADD plains_pixels_count province_pixels_count
 	
 	# Apply pixels-to-grain factor value
